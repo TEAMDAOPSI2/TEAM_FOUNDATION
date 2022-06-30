@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Navbar from "@components/Navbar";
 import Image from "next/image";
-import BiannualImageMarch from "@public/images/Tezos_Foundation_Bianual_March_22_Overview.jpg.jpg";
+import BiannualImageMarch from "@public/images/Tezos_Foundation_Bianual_March_22_Overview.jpg";
 import Link from "next/link";
 import Footer from "@components/Footer";
 
