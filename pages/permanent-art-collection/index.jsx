@@ -2,7 +2,7 @@ import Head from "next/head";
 import Navbar from "@components/Navbar";
 import Footer from "@components/Footer";
 import ImgArt from "@public/images/art-collection-square-1200x1203.jpg";
-import Avatar from "@public/images/Misan-Harriman-Digital-Art-Gallery-tezos-Foundation-1024x1278.jpg";
+import Avatar from "@public/images/Misan-Harriman-Digital-Art-Gallery-Tezos-Foundation-1024x1278.jpg";
 import Image from "next/image";
 import Link from "next/link";
 
