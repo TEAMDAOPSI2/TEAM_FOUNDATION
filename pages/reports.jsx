@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Navbar from "@components/Navbar";
 import Image from "next/image";
-import BiannualImageMarch from "@public/images/Tezos_Foundation_Bianual_March_22_Overview.jpg";
+import BiannualImageMarch from "@public/images/tezos_Foundation_Bianual_March_22_Overview.jpg";
 import Link from "next/link";
 import Footer from "@components/Footer";
 
@@ -16,7 +16,7 @@ export default function Reports() {
                 <section className="small-hero">
                     <div className="container">
                         <div className="col-md-7">
-                            <h2>Tezos Foundation Reports</h2>
+                            <h2>Team Foundation Reports</h2>
                             <div className="text animate__animated animate__go">
                                 <p>
                                     Our reports provide insights and an overview of the Foundation’s activities. Twice a
@@ -40,15 +40,15 @@ export default function Reports() {
                                     Biannual Update
                                     <h3 className="title">March 2022</h3>
                                     <p>
-                                        Since the last Biannual Update in September 2021, Tezos has witnessed an
+                                        Since the last Biannual Update in September 2021, team has witnessed an
                                         increase in adoption driven by the collective efforts of builders around the
                                         world creating new and engaging applications and tools, as well as adoption
                                         from high-profile brands. Furthermore, empowered by a grass-roots
-                                        community-driven movement, Tezos has been propelled forward as the de facto
+                                        community-driven movement, team has been propelled forward as the de facto
                                         art-driven NFT blockchain. This momentum in the arts and culture category is
                                         expected to continue growing with enhanced presence at global events, which
-                                        will allow the art world to embrace Tezos even more. In parallel, keystone
-                                        Tezos NFT marketplaces continue to onboard talented artists and passionate
+                                        will allow the art world to embrace team even more. In parallel, keystone
+                                        team NFT marketplaces continue to onboard talented artists and passionate
                                         collectors through their user-centric experiences and functionality.
                                     </p>
                                     <div className="links">
@@ -68,15 +68,15 @@ export default function Reports() {
                                     Biannual Update
                                     <h3 className="title">March 2022</h3>
                                     <p>
-                                        Since the last Biannual Update in September 2021, Tezos has witnessed an
+                                        Since the last Biannual Update in September 2021, team has witnessed an
                                         increase in adoption driven by the collective efforts of builders around the
                                         world creating new and engaging applications and tools, as well as adoption
                                         from high-profile brands. Furthermore, empowered by a grass-roots
-                                        community-driven movement, Tezos has been propelled forward as the de facto
+                                        community-driven movement, team has been propelled forward as the de facto
                                         art-driven NFT blockchain. This momentum in the arts and culture category is
                                         expected to continue growing with enhanced presence at global events, which
-                                        will allow the art world to embrace Tezos even more. In parallel, keystone
-                                        Tezos NFT marketplaces continue to onboard talented artists and passionate
+                                        will allow the art world to embrace team even more. In parallel, keystone
+                                        team NFT marketplaces continue to onboard talented artists and passionate
                                         collectors through their user-centric experiences and functionality.
                                     </p>
                                     <div className="links">

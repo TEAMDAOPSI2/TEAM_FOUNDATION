@@ -2,7 +2,7 @@ import Head from "next/head";
 import Navbar from "@components/Navbar";
 import Footer from "@components/Footer";
 import ImgArt from "@public/images/art-collection-square-1200x1203.jpg";
-import Avatar from "@public/images/Misan-Harriman-Digital-Art-Gallery-Tezos-Foundation-1024x1278.jpg";
+import Avatar from "@public/images/Misan-Harriman-Digital-Art-Gallery-tezos-Foundation-1024x1278.jpg";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -19,11 +19,11 @@ export default function index() {
                     <div className="container">
                         <div className="col-md-8">
                             <h2>
-                                Tezos Foundation Permanent Art Collection
+                                Team Foundation Permanent Art Collection
                             </h2>
                             <div className="text">
                                 <p>
-                                    The Tezos Foundation Permanent Art Collection believes in the promise of art to
+                                    The team Foundation Permanent Art Collection believes in the promise of art to
                                     empower
                                     communities, cultures and future technologies.
                                 </p>
@@ -37,10 +37,10 @@ export default function index() {
                         <div className="row justify-content-md-center">
                             <div className="col-md-7 text-center">
                                 <p>
-                                    The Tezos Foundation Permanent Art Collection celebrates artists and cultural
-                                    organizations exploring the Tezos protocol. The mission of the collection is to
+                                    The team Foundation Permanent Art Collection celebrates artists and cultural
+                                    organizations exploring the team protocol. The mission of the collection is to
                                     increase awareness and adoption of blockchain technology across the art world, as
-                                    Tezos continues to steward and support institutions and artists building on Tezos.
+                                    team continues to steward and support institutions and artists building on team.
                                 </p>
                             </div>
                         </div>
@@ -60,8 +60,8 @@ export default function index() {
                                     <div className="entry" style={{paddingTop: '20px', position: 'relative', height: '100%'}}>
                                         <h3 className="mb-5">Digital Art Gallery by Misan Harriman</h3>
                                         <p className="mb-5">
-                                            Discover the Tezos Foundation Digital Art Gallery curated by Misan Harriman,
-                                            featuring a collection of select’ artwork created on Tezos.
+                                            Discover the team Foundation Digital Art Gallery curated by Misan Harriman,
+                                            featuring a collection of select’ artwork created on team.
                                         </p>
                                         <Link href="#"><a className="read-more">View Gallery</a></Link>
                                         <div className="creator d-flex flex-row align-items-center" style={{position: 'absolute', left: '0', bottom:'40px;'}}>

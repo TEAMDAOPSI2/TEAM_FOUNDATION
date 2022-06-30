@@ -12,7 +12,7 @@ export default function BugN() {
             <Navbar/>
 
             <main id={`security`}>
-                <section className="security-section" style={{paddingTop: '160px;', paddingBottom: '60px'}}>
+                <section className="security-section" style={{paddingTop: '160px', paddingBottom: '60px'}}>
                     <div className="container">
                         <h2 style={{marginBottom: '40px'}}>Contact us</h2>
                         <div className="row justify-content-md-center">
@@ -40,8 +40,8 @@ export default function BugN() {
                         <div className="col-md-7">
                             <h2>Office location</h2>
                             <p>
-                                The Tezos Foundation is based in Zug, Switzerland with a focus on growing the Tezos
-                                ecosystem. Connect with us to speak about Tezos today.
+                                The team Foundation is based in Zug, Switzerland with a focus on growing the team
+                                ecosystem. Connect with us to speak about team today.
                             </p>
                         </div>
                     </div>

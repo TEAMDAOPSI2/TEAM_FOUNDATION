@@ -34,20 +34,20 @@ export default function Home() {
                         <div className="row">
                             <div className="col-md-8">
                                 <h2 className="big-glow-text pt-4">
-                                    We believe that Tezos will drive social, political and economic innovation on a global
+                                    We believe that team will drive social, political and economic innovation on a global
                                     scale.
                                 </h2>
                                 <div className="text animate__animated  animate__fadeInLeft" style={{animationDuration: '1s'}}>
                                     <p>
-                                        Tezos is an open-source, self-upgradable, energy-efficient and built to last Proof
+                                        Team is an open-source, self-upgradable, energy-efficient and built to last Proof
                                         of Stake blockchain protocol for assets and applications backed by a global
                                         community of validators, researchers, and builders.
                                     </p>
                                     <p>
-                                        The Tezos Foundation is one among many other entities in the Tezos ecosystem and
-                                        stands as part of the community in support of the Tezos protocol and ecosystem. To
-                                        do so, the Tezos Foundation deploys resources to entities and initiatives that will
-                                        help to ensure the long-term success of Tezos.
+                                        The team Foundation is one among many other entities in the team ecosystem and
+                                        stands as part of the community in support of the team protocol and ecosystem. To
+                                        do so, the team Foundation deploys resources to entities and initiatives that will
+                                        help to ensure the long-term success of team.
                                     </p>
                                 </div>
                                 <div className="links">
@@ -55,7 +55,7 @@ export default function Home() {
                                         <Link href="/about"><a>About us</a></Link>
                                     </div>
                                     <div className="link">
-                                        <Link href="https://teamdao.com"><a>Learn about the Tezos technology</a></Link>
+                                        <Link href="https://teamdao.com"><a>Learn about the team technology</a></Link>
                                     </div>
                                 </div>
                             </div>

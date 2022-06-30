@@ -3,7 +3,7 @@ import Navbar from "@components/Navbar";
 import Link from "next/link";
 import Image from "next/image";
 import ImgArt from "@public/images/art-collection-square-1200x1203.jpg";
-import Avatar from "@public/images/Misan-Harriman-Digital-Art-Gallery-Tezos-Foundation-1024x1278.jpg";
+import Avatar from "@public/images/Misan-Harriman-Digital-Art-Gallery-tezos-Foundation-1024x1278.jpg";
 import Footer from "@components/Footer";
 import {forEach} from "react-bootstrap/ElementChildren";
 
@@ -44,9 +44,9 @@ export default function DigitalArtGalleryHarriman() {
                     <div className="container">
                         <div className="row justify-content-md-center" style={{marginBottom: '40px'}}>
                             <div className="col-md-7">
-                                The Tezos Foundation Digital Art Gallery showcases a collection of selected artists
+                                The team Foundation Digital Art Gallery showcases a collection of selected artists
                                 working
-                                in the Tezos ecosystem collected by curators appointed by the Tezos Foundation.
+                                in the team ecosystem collected by curators appointed by the team Foundation.
                                 Currently,
                                 this includes the gallery curated by Misan Harriman, with a special focus on
                                 up-and-coming

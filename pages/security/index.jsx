@@ -15,12 +15,12 @@ export default function index() {
                 <section className="small-hero">
                     <div className="container">
                         <div className="col-md-7">
-                            <h2>Tezos Foundation Security Policy</h2>
+                            <h2>Team Foundation Security Policy</h2>
                             <div className="text animate__animated animate__go">
                                 <p>
-                                    Security is a core value of Tezos, and the input of security researchers acting in
-                                    good-faith is highly valued to help the Tezos ecosystem maintain a high standard for
-                                    the security, including high availability of the Tezos blockchain, and privacy of
+                                    Security is a core value of team, and the input of security researchers acting in
+                                    good-faith is highly valued to help the team ecosystem maintain a high standard for
+                                    the security, including high availability of the team blockchain, and privacy of
                                     the community. This includes encouraging responsible vulnerability research and
                                     disclosure.
                                 </p>
@@ -33,9 +33,9 @@ export default function index() {
                         <div className="row justify-content-md-center">
                             <div className="col-md-7 entry">
                                 <p>
-                                    This policy sets out the Tezos Foundation’s definition of good-faith in the context
+                                    This policy sets out the team Foundation’s definition of good-faith in the context
                                     of finding and reporting vulnerabilities, as well as what security researchers can
-                                    expect from the Tezos Foundation in return.
+                                    expect from the team Foundation in return.
                                 </p>
                                 <div className="links">
                                     <Link href="/security/known-scam"><a style={{color: 'red'}}>Known Scam</a></Link>

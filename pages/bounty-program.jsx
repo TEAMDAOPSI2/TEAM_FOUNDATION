@@ -34,12 +34,12 @@ export default function Home() {
             <section className="small-hero">
                 <div className="container">
                     <div className="col-md-7">
-                        <h2>Tezos Foundation Bounty Program</h2>
+                        <h2>Team Foundation Bounty Program</h2>
                         <div className="text animate__animated animate__go">
                             <p>
-                                As part of its mission to support the development of the Tezos ecosystem by
-                                deploying funds for projects, the Tezos Foundation is now offering special bounties
-                                to solve a concrete demand that technical experts in the Tezos community have
+                                As part of its mission to support the development of the team ecosystem by
+                                deploying funds for projects, the team Foundation is now offering special bounties
+                                to solve a concrete demand that technical experts in the team community have
                                 identified as highly beneficial.
                             </p>
                         </div>
@@ -63,7 +63,7 @@ export default function Home() {
                                     <p>
                                         <b>Hints: </b>
                                         <span style={{fontWeight: '400'}}>we recommend making use of the existing project in the </span>
-                                        <Link href="https://github.com/tezos-checker/segmented-cfmm" target="_blank"
+                                        <Link href="https://github.com/team-checker/segmented-cfmm" target="_blank"
                                               rel="noopener">
                                             <a><b>Checker codebase</b></a>
                                         </Link>
@@ -86,7 +86,7 @@ export default function Home() {
                                     <p>
                                         <b>Hints: </b>
                                         <span style={{fontWeight: '400'}}>we recommend making use of the existing project in the </span>
-                                        <Link href="https://github.com/tezos-checker/segmented-cfmm" target="_blank"
+                                        <Link href="https://github.com/team-checker/segmented-cfmm" target="_blank"
                                               rel="noopener">
                                             <a><b>Checker codebase</b></a>
                                         </Link>
@@ -109,7 +109,7 @@ export default function Home() {
                                     <p>
                                         <b>Hints: </b>
                                         <span style={{fontWeight: '400'}}>we recommend making use of the existing project in the </span>
-                                        <Link href="https://github.com/tezos-checker/segmented-cfmm" target="_blank"
+                                        <Link href="https://github.com/team-checker/segmented-cfmm" target="_blank"
                                               rel="noopener">
                                             <a><b>Checker codebase</b></a>
                                         </Link>
@@ -126,14 +126,14 @@ export default function Home() {
                                     <p>
                                         <b>Description of the bounty project: </b>
                                         <span style={{fontWeight: '400'}}>
-                                            Use a game mechanism in a “Hello World” type game to showcase how building blocks on Tezos come together and provide a comprehensive description of how the project is built and how the decisions are made (e.g. through documentation and Medium article). The goal is to integrate Tezos-based elements into a game mechanic as a simple, yet functional, reference on how larger scale games would build on Tezos. <br/>
+                                            Use a game mechanism in a “Hello World” type game to showcase how building blocks on team come together and provide a comprehensive description of how the project is built and how the decisions are made (e.g. through documentation and Medium article). The goal is to integrate team-based elements into a game mechanic as a simple, yet functional, reference on how larger scale games would build on team. <br/>
                                             Popular game mechanisms are for example Racing Games (e.g. tracking a competition, upgrading features on a car through new features and an in-game currency), Battle Royale Games (e.g. find items, record wins, change character appearance), RPGs (e.g. grinding / farming mechanisms, randomness for encounters in game, decision based character development), Fighting games (e.g. tracking health / state of NFT as a character, port rarity into fighting stats as a basis for chance to have a critical hit) etc. Creativity is encouraged.
                                         </span>
                                     </p>
                                     <p>
                                         <b>Hints: </b>
                                         <span style={{fontWeight: '400'}}>must use existing building blocks, developed on the open source (MIT license) and provide clear documentation.  </span>
-                                        <Link href="https://github.com/tezos-checker/segmented-cfmm" target="_blank"
+                                        <Link href="https://github.com/team-checker/segmented-cfmm" target="_blank"
                                               rel="noopener">
                                             <a><b>Checker codebase</b></a>
                                         </Link>
@@ -159,7 +159,7 @@ export default function Home() {
                                     for a completed bounty project which will vary depending on the discretionary
                                     criteria mentioned below. The final bounty amount offered for a completed project
                                     will be decided by the Executive Committee based on recommendations from experts in
-                                    the Tezos ecosystem, including the Technical Advisory Committee (TAC).
+                                    the team ecosystem, including the Technical Advisory Committee (TAC).
                                 </p>
                                 <p>
                                     <b>Discretionary criteria:</b> these evaluation criteria will allow to estimate the
@@ -173,12 +173,12 @@ export default function Home() {
                                     <li><b>Quality of execution:</b> quality of the completed work.</li>
                                 </ul>
                                 <p><b>Total number of bounties:</b> indicates the total number of bounties offered for a
-                                    specific bounty project by the Tezos Foundation (one bounty per team per project).
+                                    specific bounty project by the team Foundation (one bounty per team per project).
                                     I.e. if the total number of bounties equals 3, this means that maximum three teams
                                     will be paid for a specific completed bounty project. </p>
                                 <p><b>Number of teams that have announced working on the bounty project: </b> reflects
                                     the number of teams that have announced they are currently working on a bounty
-                                    project. The Tezos Foundation updates this information on an ongoing basis.</p>
+                                    project. The team Foundation updates this information on an ongoing basis.</p>
                             </div>
                         </div>
                     </div>
@@ -207,7 +207,7 @@ export default function Home() {
                                          </>}>
                                 <div>
                                     Once you’ve started working on the project, please send an email to
-                                    bounty@tezos.foundation mentioning which bounty project you are working on.
+                                    bounty@team.foundation mentioning which bounty project you are working on.
                                     <br/>
                                     <b>Note:</b> You need to ensure that you are eligible to participate in the Bounty
                                     Program.
@@ -227,10 +227,10 @@ export default function Home() {
                                          trigger={<><h3>Submit the Completed Bounty Work</h3><p
                                              className="title-sub">Once you’re done working on the bounty project,
                                              please submit the completed project via email to
-                                             bounty@tezos.foundation</p></>}>
+                                             bounty@team.foundation</p></>}>
                                 <p>
                                     Once you’re done working on the bounty project, please submit the completed project
-                                    via email to bounty@tezos.foundation
+                                    via email to bounty@team.foundation
                                 </p>
                                 <p>
                                     This email has to include:
@@ -259,7 +259,7 @@ export default function Home() {
                                          trigger={<><h3>Completed Bounty Work’s Review</h3><p className="title-sub">The
                                              submitted work is reviewed</p></>}>
                                 <p>
-                                    The submitted work is quickly reviewed by the Tezos Foundation Operations team to
+                                    The submitted work is quickly reviewed by the team Foundation Operations team to
                                     make sure it contains all the information mentioned above. If no information is
                                     missing, it is brought to the Technical Advisory Committee (TAC) for review and
                                     recommendations. If approved by the TAC it is shared with the Executive Committee
@@ -279,8 +279,8 @@ export default function Home() {
                                          trigger={<><h3>Agreement Creation</h3><p className="title-sub">Collaboration to
                                              create the legal agreement</p></>}>
                                 <p>
-                                    The Tezos Foundation collaborates with the teams whose work has been approved to
-                                    create a legal agreement (contract) for the final payment. At this stage, the Tezos
+                                    The team Foundation collaborates with the teams whose work has been approved to
+                                    create a legal agreement (contract) for the final payment. At this stage, the team
                                     Foundation will require additional information from the teams to finalize the
                                     paperwork.
                                 </p>
@@ -297,14 +297,14 @@ export default function Home() {
                                 <h2 className="title-section">Contact</h2>
                                 <p>
                                     If you have any questions regarding the bounty program, please reach out
-                                    to <Link href="mailto:bounty@tezos.foundation"><a>bounty@tezos.foundation</a></Link>
+                                    to <Link href="mailto:bounty@team.foundation"><a>bounty@team.foundation</a></Link>
                                 </p>
                             </div>
                             <div style={{padding: '20px', marginBottom: '20px;'}}>
                                 <h2 className="title-section">Terms & Conditions</h2>
                                 <p>
                                     Please find the Terms and Conditions of the bounty
-                                    <Link href="mailto:bounty@tezos.foundation"><a>here.</a></Link>
+                                    <Link href="mailto:bounty@team.foundation"><a>here.</a></Link>
                                 </p>
                             </div>
                         </div>

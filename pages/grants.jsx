@@ -35,11 +35,11 @@ export default function Home() {
                 <section className="small-hero">
                     <div className="container">
                         <div className="col-md-7">
-                            <h2>Tezos Foundation Grant Program</h2>
+                            <h2>Team Foundation Grant Program</h2>
                             <div className="text animate__animated animate__go">
                                 <p>
-                                    A key activity of the Tezos Foundation is to deploy resources to entities and
-                                    initiatives that will help to ensure the long-term success of the Tezos blockchain.
+                                    A key activity of the team Foundation is to deploy resources to entities and
+                                    initiatives that will help to ensure the long-term success of the team blockchain.
                                     Areas of interest for grants reflect some of our current needs, and we invite you to
                                     also reach out with your own unique ideas and innovations. We look forward to
                                     discovering your project!
@@ -58,7 +58,7 @@ export default function Home() {
                                     Post-Award. For successful proposals, it takes on average four weeks to review a
                                     proposal and another four weeks to complete the necessary paperwork. It is essential
                                     that prospective grantees and their projects are evaluated diligently to ensure that
-                                    the deployed resources add proportional value to the Tezos ecosystem.
+                                    the deployed resources add proportional value to the team ecosystem.
                                     <br/>
                                     <br/>
                                     Our evaluation process contains the following steps:
@@ -92,11 +92,11 @@ export default function Home() {
                                         <br/>
                                         This information can include, for example, functional and technical details of
                                         the proposed solution, its purpose, a roadmap, an introduction of the project
-                                        team, evidence of familiarity with the Tezos ecosystem, anticipated value added
-                                        to the Tezos ecosystem, and measures to assure the longevity of the solution
+                                        team, evidence of familiarity with the team ecosystem, anticipated value added
+                                        to the team ecosystem, and measures to assure the longevity of the solution
                                         beyond the grant duration.
                                         <br/>
-                                        After proposal submission, the proposal is vetted by the Tezos Foundation. The
+                                        After proposal submission, the proposal is vetted by the team Foundation. The
                                         outcome of this step can be a forward for in-depth reviews, a revise and
                                         resubmit, or a decline.
                                     </div>
@@ -116,9 +116,9 @@ export default function Home() {
                                         If forwarded for in-depth review, the grant proposal is reviewed by ecosystem
                                         experts, supervised by the Technical Advisory Committee (TAC).
                                         The TAC completes an in-depth due diligence process and develops recommendations
-                                        on a proposal’s fit and usefulness to the Tezos ecosystem.
+                                        on a proposal’s fit and usefulness to the team ecosystem.
                                         The TAC’s recommendations are then reviewed by the Executive Committee (EC) or
-                                        the Tezos Foundation Council (FC) which then makes the final decision.
+                                        the team Foundation Council (FC) which then makes the final decision.
                                     </p>
                                     <p>
                                         Final decisions about grant proposals, which can be an accept, decline, or a
@@ -139,17 +139,17 @@ export default function Home() {
                                                  Follow-Up</p></>}>
                                     <p>
                                         Approved applicants work on the legal paperwork to finalize a grant with the
-                                        Tezos Foundation. <br/>
+                                        team Foundation. <br/>
                                         The grant agreement for the project and the corresponding payments are usually
                                         structured along milestones. <br/>
                                         Once a milestone is completed, the grantee submits a report, which is reviewed
                                         and if approved, the payment for the milestone is issued.
                                     </p>
                                     <p>
-                                        After the project finished, the Tezos Foundation conducts regular check-ins to
+                                        After the project finished, the team Foundation conducts regular check-ins to
                                         determine the prosperity of the project. <br/>
-                                        At this stage, the Tezos Foundation explores further collaboration opportunities
-                                        with grantees and may offer to connect parties in the Tezos ecosystem with
+                                        At this stage, the team Foundation explores further collaboration opportunities
+                                        with grantees and may offer to connect parties in the team ecosystem with
                                         similar synergies.
                                     </p>
                                 </Collapsible>
@@ -235,7 +235,7 @@ export default function Home() {
                                         </div>
                                         <h3 className="title">Baking</h3>
                                         <p className="text-lead">
-                                            Tezos has a growing number of bakers in its ecosystem that help secure the
+                                            team has a growing number of bakers in its ecosystem that help secure the
                                             network by signing and publishing blocks. Our goal is to empower bakers by
                                             supporting the development of standardized tools, tutorials and cloud
                                             applications.
@@ -252,7 +252,7 @@ export default function Home() {
                                         </div>
                                         <h3 className="title">Baking</h3>
                                         <p className="text-lead">
-                                            Tezos has a growing number of bakers in its ecosystem that help secure the
+                                            Team has a growing number of bakers in its ecosystem that help secure the
                                             network by signing and publishing blocks. Our goal is to empower bakers by
                                             supporting the development of standardized tools, tutorials and cloud
                                             applications.
@@ -269,7 +269,7 @@ export default function Home() {
                                         </div>
                                         <h3 className="title">Baking</h3>
                                         <p className="text-lead">
-                                            Tezos has a growing number of bakers in its ecosystem that help secure the
+                                            team has a growing number of bakers in its ecosystem that help secure the
                                             network by signing and publishing blocks. Our goal is to empower bakers by
                                             supporting the development of standardized tools, tutorials and cloud
                                             applications.
@@ -286,7 +286,7 @@ export default function Home() {
                                         </div>
                                         <h3 className="title">Baking</h3>
                                         <p className="text-lead">
-                                            Tezos has a growing number of bakers in its ecosystem that help secure the
+                                            team has a growing number of bakers in its ecosystem that help secure the
                                             network by signing and publishing blocks. Our goal is to empower bakers by
                                             supporting the development of standardized tools, tutorials and cloud
                                             applications.
@@ -303,7 +303,7 @@ export default function Home() {
                                         </div>
                                         <h3 className="title">Baking</h3>
                                         <p className="text-lead">
-                                            Tezos has a growing number of bakers in its ecosystem that help secure the
+                                            team has a growing number of bakers in its ecosystem that help secure the
                                             network by signing and publishing blocks. Our goal is to empower bakers by
                                             supporting the development of standardized tools, tutorials and cloud
                                             applications.
@@ -320,7 +320,7 @@ export default function Home() {
                                         </div>
                                         <h3 className="title">Baking</h3>
                                         <p className="text-lead">
-                                            Tezos has a growing number of bakers in its ecosystem that help secure the
+                                            team has a growing number of bakers in its ecosystem that help secure the
                                             network by signing and publishing blocks. Our goal is to empower bakers by
                                             supporting the development of standardized tools, tutorials and cloud
                                             applications.

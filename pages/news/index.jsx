@@ -60,7 +60,7 @@ export default function News() {
                                 <time className="date label">12.05.2022</time>
                             </div>
                             <h3 className="title">
-                                Tezos Foundation Launches Permanent Art Collection, and a Digital Art Gallery Curated by
+                                team Foundation Launches Permanent Art Collection, and a Digital Art Gallery Curated by
                                 Photographer Misan Harriman
                             </h3>
                             <div className="post-teaser">
@@ -90,7 +90,7 @@ export default function News() {
                                                 <time className="date label">12.05.2022</time>
                                             </div>
                                             <h3 className="title">
-                                                Tezos Foundation Launches Permanent Art Collection, and a Digital Art
+                                                team Foundation Launches Permanent Art Collection, and a Digital Art
                                                 Gallery
                                                 Curated by
                                                 Photographer Misan Harriman
