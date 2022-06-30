@@ -2,8 +2,11 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
+import TeamLogo from "@public/images/team-logo.png";
 import Link from "next/link";
 import React, {useEffect, useState} from "react";
+import {NavDropdown} from "react-bootstrap";
+import Image from "next/image";
 
 
 const RBNavBar = () => {
@@ -105,7 +108,9 @@ const RBNavBar = () => {
                 <div className="container">
                     <Link className="navbar-brand text-white" href="/">
                         <a>
-                            <img src="images/team-logo.png" alt="Team Games" className={`brand_img`}/>
+                            <Image width={131}
+                                   height={38}
+                                   src={TeamLogo} alt="Team Games" className={`brand_img`}/>
                         </a>
                     </Link>
                     <Navbar.Toggle onClick={() => setIsOpen(!isOpen)}
@@ -115,51 +120,74 @@ const RBNavBar = () => {
                     <Navbar.Collapse id="basic-navbar-nav" className={`collapse-animation`}>
                         <Nav className="ml-auto ms-auto" id="myNavItem">
                             <Link href="/#Home">
-                                <a className="nav-link">Home</a>
+                                <a className="nav-link">About us</a>
                             </Link>
-                            <Link href="/#about">
-                                <a className="nav-link">About</a>
+                            <Link href="grants">
+                                <a className="nav-link">Grant Process</a>
+                            </Link>
+                            <Link href="/bounty-program">
+                                <a className="nav-link">Bounty Program</a>
+                            </Link>
+                            <Link href="/news">
+                                <a className="nav-link">News</a>
+                            </Link>
+                            <Link href="/reports">
+                                <a className="nav-link">Reports</a>
+                            </Link>
+                            <NavDropdown title="Security" id="basic-nav-dropdown">
+                                <NavDropdown.Item href="/security"> Security Policy</NavDropdown.Item>
+                                <NavDropdown.Item href="/security/bug-bounty-program">Bug Bounty
+                                    Program</NavDropdown.Item>
+                                <NavDropdown.Item href="/security/known-scam">Known Scam</NavDropdown.Item>
+                            </NavDropdown>
+                            <NavDropdown title="Art Collection" id="basic-nav-dropdown">
+                                <NavDropdown.Item href="/permanent-art-collection">Permanent Art
+                                    Collection</NavDropdown.Item>
+                                <NavDropdown.Item href="/permanent-art-collection/digital-art-gallery-harriman">Digital Art Gallery by Misan Harriman</NavDropdown.Item>
+                            </NavDropdown>
+                            <Link href="/contact-us">
+                                <a className="nav-link">Contact us</a>
                             </Link>
                         </Nav>
 
-                        <Nav className="ms-auto left-nav-menu" id="myNavItem">
-                            <div onClick={addTeamToken}
-                                 className="btn_b me-2 reflect-left w-100">
-                                <div style={{width: 150 + 'px'}}
-                                     className="d-flex flex-row justify-content-center align-items-center flex-grow-1 add-meta btn_b--textwrap">
-                                    <img src="images/team-meta.png" alt="TEAM METAMASK" className={`coin-link`}/>
-                                    <span className={`text-center d-flex flex-column`}>
-                                    <span>+ADD <span className="neon">$TEAM</span></span> <span>METAMASK</span>
-                                </span>
-                                </div>
-                                <div className="btn_b--bgwrap">
-                                    <div className="btn_b--bg">
-                                        <div className="btn_b--fill no_full"/>
-                                    </div>
-                                </div>
-                            </div>
-                            <div onClick={connectWallet} id="con_wallet-txt" className="btn_b w-100">
-                                <div className="btn_b--textwrap h-100">
-                                    {!currentAccount ?
-                                        <div id="con_wallet" className="btn_b--txt d-flex flex-column"><span
-                                            className="neon">Connect</span> <span>Wallet</span></div> :
-                                        <div id="con_wallet"
-                                             className="btn_b--txt d-flex align-items-center justify-content-center ">
-                                            {
-                                                <span
-                                                    className="neon">{currentAccount.substr(0, 3)}...{currentAccount.substr(currentAccount.length - 4)}</span>
-                                            }
-                                        </div>
-                                    }
+                        {/*<Nav className="ms-auto left-nav-menu" id="myNavItem">*/}
+                        {/*    <div onClick={addTeamToken}*/}
+                        {/*         className="btn_b me-2 reflect-left w-100">*/}
+                        {/*        <div style={{width: 150 + 'px'}}*/}
+                        {/*             className="d-flex flex-row justify-content-center align-items-center flex-grow-1 add-meta btn_b--textwrap">*/}
+                        {/*            <img src="images/team-meta.png" alt="TEAM METAMASK" className={`coin-link`}/>*/}
+                        {/*            <span className={`text-center d-flex flex-column`}>*/}
+                        {/*            <span>+ADD <span className="neon">$TEAM</span></span> <span>METAMASK</span>*/}
+                        {/*        </span>*/}
+                        {/*        </div>*/}
+                        {/*        <div className="btn_b--bgwrap">*/}
+                        {/*            <div className="btn_b--bg">*/}
+                        {/*                <div className="btn_b--fill no_full"/>*/}
+                        {/*            </div>*/}
+                        {/*        </div>*/}
+                        {/*    </div>*/}
+                        {/*    <div onClick={connectWallet} id="con_wallet-txt" className="btn_b w-100">*/}
+                        {/*        <div className="btn_b--textwrap h-100">*/}
+                        {/*            {!currentAccount ?*/}
+                        {/*                <div id="con_wallet" className="btn_b--txt d-flex flex-column"><span*/}
+                        {/*                    className="neon">Connect</span> <span>Wallet</span></div> :*/}
+                        {/*                <div id="con_wallet"*/}
+                        {/*                     className="btn_b--txt d-flex align-items-center justify-content-center ">*/}
+                        {/*                    {*/}
+                        {/*                        <span*/}
+                        {/*                            className="neon">{currentAccount.substr(0, 3)}...{currentAccount.substr(currentAccount.length - 4)}</span>*/}
+                        {/*                    }*/}
+                        {/*                </div>*/}
+                        {/*            }*/}
 
-                                </div>
-                                <div className="btn_b--bgwrap">
-                                    <div className="btn_b--bg">
-                                        <div className="btn_b--fill no_full"/>
-                                    </div>
-                                </div>
-                            </div>
-                        </Nav>
+                        {/*        </div>*/}
+                        {/*        <div className="btn_b--bgwrap">*/}
+                        {/*            <div className="btn_b--bg">*/}
+                        {/*                <div className="btn_b--fill no_full"/>*/}
+                        {/*            </div>*/}
+                        {/*        </div>*/}
+                        {/*    </div>*/}
+                        {/*</Nav>*/}
 
                     </Navbar.Collapse>
                 </div>

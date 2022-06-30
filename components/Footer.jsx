@@ -1,5 +1,18 @@
 import React, {useEffect, useState} from "react";
 import Link from "next/link";
+import TeamLogo from "@public/images/team-logo.png";
+import Image from "next/image";
+import ImgTelegramICO from "@public/images/telegram_white.svg";
+import ImgTwitterICO from "@public/images/twitter_white.svg";
+import ImgFacebookICO from "@public/images/iconmonstr-facebook-1-240.png";
+import ImgTiktokICO from "@public/images/tiktok.png";
+import ImgMediumICO from "@public/images/medium_white.svg";
+import ImgDiscordICO from "@public/images/discord_white.svg";
+import ImgLitePaperICO from "@public/images/litepaper.png";
+import ImgGithubICO from "@public/images/github_white.svg";
+import ImgYoutubeICO from "@public/images/youtube_icon.svg";
+import ImgTwitchICO from "@public/images/iconmonstr-twitch-1-240.png";
+import ImgLinkTreeICO from "@public/images/iconmonstr-share-thin-240.png";
 
 
 // https://script.google.com/macros/s/AKfycbwYEFQFcl2Anqos_CQ5qnYMtHP07Ej9xZNNykjyGMTabeS3SPVTpa8YIAFsE7JnHrv7bw/exec?action=notif
@@ -52,71 +65,63 @@ export default function Footer() {
                         <div className="col-md-6">
                             <div className="d-flex h-100 flex-row align-items-center socials">
                                 <div className="footer-logo mr-1">
-                                    <img src="images/team-logo.png" alt="Team game"/>
+                                    <Image src={TeamLogo} width={121} height={31} alt="Team game"/>
                                 </div>
                                 <div className="social-group">
                                     <a href="https://t.me/TEAMDAO" target="_blank" rel="noreferrer">
-                                        <img src="images/telegram_white.svg" alt="Telegram"/>
+                                        <Image src={ImgTelegramICO} width={25} height={25} alt="Telegram"/>
                                     </a>
                                 </div>
                                 <div className="social-group">
                                     <a href="https://twitter.com/TEAMDAOcom" target="_blank" rel="noreferrer">
-                                        <img src="images/twitter_white.svg" alt="Twitter"/>
+                                        <Image src={ImgTwitterICO} width={25} height={25} alt="Twitter"/>
                                     </a>
                                 </div>
                                 <div className="social-group">
                                     <a href="https://web.facebook.com/TEAMDAOcom" target="_blank" rel="noreferrer">
-                                        <img style={{width: '20px', height: '20px'}}
-                                             src="images/iconmonstr-facebook-1-240.png" alt="Twitter"/>
+                                        <Image width={20} height={20}
+                                               src={ImgFacebookICO} alt="Twitter"/>
                                     </a>
                                 </div>
                                 <div className="social-group">
                                     <a href="https://www.tiktok.com/@teamdao" target="_blank" rel="noreferrer">
-                                        <img style={{width: '20px', height: '20px'}}
-                                             src="images/tiktok.png" alt="Tiktok"/>
+                                        <Image width={20} height={20}
+                                               src={ImgTiktokICO} alt="Tiktok"/>
                                     </a>
                                 </div>
                                 <div className="social-group">
                                     <a href="https://teamdao.medium.com" target="_blank" rel="noreferrer">
-                                        <img src="images/medium_white.svg" alt="Telegram"/>
+                                        <Image width={25} height={25} src={ImgMediumICO} alt="Telegram"/>
                                     </a>
                                 </div>
                                 <div className="social-group">
                                     <a href="https://discord.gg/TEAMDAO" target="_blank" rel="noreferrer">
-                                        <img src="images/discord_white.svg" alt="Telegram"/>
+                                        <Image width={25} height={25} src={ImgDiscordICO} alt="Discord"/>
                                     </a>
                                 </div>
                                 <div className="social-group">
                                     <a href="https://whitepaper.teamdao.com/" target="_blank" rel="noreferrer">
-                                        <img style={{width: '20px', height: '20px'}} src="images/litepaper.png"
-                                             alt="litepapper"/>
+                                        <Image src={ImgLitePaperICO} width={20} height={20} alt="LitePaper"/>
                                     </a>
                                 </div>
-                                {/* <div className="social-group">
-                                     <Link href="/litepaper">
-                                         <img style={{width:'20px', height:'20px'}} src="images/litepaper.png" alt="litepapper"/>
-                                     </Link>
-                                </div> */}
                                 <div className="social-group">
                                     <a href="https://github.com/TEAMDAO" target="_blank" rel="noreferrer">
-                                        <img src="images/github_white.svg" alt="Github"/>
+                                        <Image src={ImgGithubICO} width={25} height={25} alt="Github"/>
                                     </a>
                                 </div>
                                 <div className="social-group">
                                     <a href="https://www.youtube.com/c/TeamDAO" target="_blank" rel="noreferrer">
-                                        <img src="images/youtube_icon.svg" alt="Youtube"/>
+                                        <Image src={ImgYoutubeICO} width={25} height={25} alt="Youtube"/>
                                     </a>
                                 </div>
                                 <div className="social-group">
                                     <a href="https://www.twitch.tv/teamdaoTV" target="_blank" rel="noreferrer">
-                                        <img style={{width: '20px', height: '20px'}}
-                                             src="images/iconmonstr-twitch-1-240.png" alt="Twitch"/>
+                                        <Image src={ImgTwitchICO} width={20} height={20} alt="Twitch"/>
                                     </a>
                                 </div>
                                 <div className="social-group">
                                     <a href="https://linktr.ee/TEAMDAO" target="_blank" rel="noreferrer">
-                                        <img style={{width: '20px', height: '20px'}}
-                                             src="images/iconmonstr-share-thin-240.png" alt="link"/>
+                                        <Image src={ImgLinkTreeICO} width={20} height={20} alt="Linktr"/>
                                     </a>
                                 </div>
                             </div>
