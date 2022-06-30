@@ -35,7 +35,7 @@ export default function Home() {
                 <section className="small-hero">
                     <div className="container">
                         <div className="col-md-7">
-                            <h2>Team Foundation Grant Program</h2>
+                            <h2>TEAM Foundation Grant Program</h2>
                             <div className="text animate__animated animate__go">
                                 <p>
                                     A key activity of the team Foundation is to deploy resources to entities and

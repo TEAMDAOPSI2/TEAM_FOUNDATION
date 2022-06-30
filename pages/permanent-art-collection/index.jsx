@@ -19,7 +19,7 @@ export default function index() {
                     <div className="container">
                         <div className="col-md-8">
                             <h2>
-                                Team Foundation Permanent Art Collection
+                                TEAM Foundation Permanent Art Collection
                             </h2>
                             <div className="text">
                                 <p>

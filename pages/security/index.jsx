@@ -15,7 +15,7 @@ export default function index() {
                 <section className="small-hero">
                     <div className="container">
                         <div className="col-md-7">
-                            <h2>Team Foundation Security Policy</h2>
+                            <h2>TEAM Foundation Security Policy</h2>
                             <div className="text animate__animated animate__go">
                                 <p>
                                     Security is a core value of team, and the input of security researchers acting in

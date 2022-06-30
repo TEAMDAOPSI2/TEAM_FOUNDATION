@@ -34,7 +34,7 @@ export default function Home() {
             <section className="small-hero">
                 <div className="container">
                     <div className="col-md-7">
-                        <h2>Team Foundation Bounty Program</h2>
+                        <h2>TEAM Foundation Bounty Program</h2>
                         <div className="text animate__animated animate__go">
                             <p>
                                 As part of its mission to support the development of the team ecosystem by

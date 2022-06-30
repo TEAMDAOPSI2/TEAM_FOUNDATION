@@ -16,7 +16,7 @@ export default function Reports() {
                 <section className="small-hero">
                     <div className="container">
                         <div className="col-md-7">
-                            <h2>Team Foundation Reports</h2>
+                            <h2>TEAM Foundation Reports</h2>
                             <div className="text animate__animated animate__go">
                                 <p>
                                     Our reports provide insights and an overview of the Foundation’s activities. Twice a

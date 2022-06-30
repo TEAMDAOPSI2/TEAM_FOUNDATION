@@ -60,7 +60,7 @@ export default function News() {
                                 <time className="date label">12.05.2022</time>
                             </div>
                             <h3 className="title">
-                                team Foundation Launches Permanent Art Collection, and a Digital Art Gallery Curated by
+                                Team Foundation Launches Permanent Art Collection, and a Digital Art Gallery Curated by
                                 Photographer Misan Harriman
                             </h3>
                             <div className="post-teaser">
