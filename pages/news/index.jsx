@@ -20,7 +20,7 @@ export default function News() {
 
     return (<>
         <Head>
-            <title>T.E.A.M FOUNDATION | Grant Process</title>
+            <title>T.E.A.M  FOUNDATION | Grant Process</title>
         </Head>
 
         {loading ? <Loader/> : ''}
@@ -60,7 +60,7 @@ export default function News() {
                                 <time className="date label">12.05.2022</time>
                             </div>
                             <h3 className="title">
-                                Team Foundation Launches Permanent Art Collection, and a Digital Art Gallery Curated by
+                                T.E.A.M Foundation Launches Permanent Art Collection, and a Digital Art Gallery Curated by
                                 Photographer Misan Harriman
                             </h3>
                             <div className="post-teaser">
@@ -90,7 +90,7 @@ export default function News() {
                                                 <time className="date label">12.05.2022</time>
                                             </div>
                                             <h3 className="title">
-                                                team Foundation Launches Permanent Art Collection, and a Digital Art
+                                                T.E.A.M Foundation Launches Permanent Art Collection, and a Digital Art
                                                 Gallery
                                                 Curated by
                                                 Photographer Misan Harriman

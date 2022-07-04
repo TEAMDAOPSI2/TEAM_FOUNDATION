@@ -7,7 +7,7 @@ export default function KnownScam() {
     return (
         <>
             <Head>
-                <title>T.E.A.M FOUNDATION | Known Scam</title>
+                <title>T.E.A.M  FOUNDATION | Known Scam</title>
             </Head>
             <Navbar/>
 
@@ -18,8 +18,8 @@ export default function KnownScam() {
                         <div className="row justify-content-md-center">
                             <div className="col-md-7 entry">
                                 <p>
-                                    The team Foundation monitors and tracks potentially malicious activity in order to
-                                    protect the growing team ecosystem, community members, and the general public.
+                                    The T.E.A.M Foundation monitors and tracks potentially malicious activity in order to
+                                    protect the growing T.E.A.M ecosystem, community members, and the general public.
                                 </p>
                                 <p>
                                     Below is a non-exhaustive list of known domains associated with scams that have been
@@ -33,7 +33,7 @@ export default function KnownScam() {
                                     <li>xtz-wallet.io</li>
                                     <li>team-link.com</li>
                                     <li>safe-blockchain.com</li>
-                                    <li>Telegram Group: team Official Support✪</li>
+                                    <li>Telegram Group: T.E.A.M Official Support✪</li>
                                     <li>team-foundation.io</li>
                                     <li>tezbox.io</li>
                                     <li>team-web.foundation</li>

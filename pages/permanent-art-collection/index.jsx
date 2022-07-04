@@ -11,7 +11,7 @@ export default function index() {
     return (
         <>
             <Head>
-                <title>T.E.A.M FOUNDATION | Permanent Art Collection</title>
+                <title>T.E.A.M  FOUNDATION | Permanent Art Collection</title>
             </Head>
             <Navbar/>
             <main id={'gallery'}>
@@ -19,11 +19,11 @@ export default function index() {
                     <div className="container">
                         <div className="col-md-8">
                             <h2>
-                                TEAM Foundation Permanent Art Collection
+                                T.E.A.M Foundation Permanent Art Collection
                             </h2>
                             <div className="text">
                                 <p>
-                                    The team Foundation Permanent Art Collection believes in the promise of art to
+                                    The T.E.A.M Foundation Permanent Art Collection believes in the promise of art to
                                     empower
                                     communities, cultures and future technologies.
                                 </p>
@@ -37,10 +37,10 @@ export default function index() {
                         <div className="row justify-content-md-center">
                             <div className="col-md-7 text-center">
                                 <p>
-                                    The team Foundation Permanent Art Collection celebrates artists and cultural
-                                    organizations exploring the team protocol. The mission of the collection is to
+                                    The T.E.A.M Foundation Permanent Art Collection celebrates artists and cultural
+                                    organizations exploring the T.E.A.M protocol. The mission of the collection is to
                                     increase awareness and adoption of blockchain technology across the art world, as
-                                    team continues to steward and support institutions and artists building on team.
+                                    T.E.A.M continues to steward and support institutions and artists building on team.
                                 </p>
                             </div>
                         </div>
@@ -60,7 +60,7 @@ export default function index() {
                                     <div className="entry" style={{paddingTop: '20px', position: 'relative', height: '100%'}}>
                                         <h3 className="mb-5">Digital Art Gallery by Misan Harriman</h3>
                                         <p className="mb-5">
-                                            Discover the team Foundation Digital Art Gallery curated by Misan Harriman,
+                                            Discover the T.E.A.M Foundation Digital Art Gallery curated by Misan Harriman,
                                             featuring a collection of select’ artwork created on team.
                                         </p>
                                         <Link href="#"><a className="read-more">View Gallery</a></Link>

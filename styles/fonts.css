@@ -2,3 +2,13 @@
     font-family:'technology';
     src:url('./fonts/technology_2/Technology.ttf');
 }
+
+@font-face {
+    font-family: 'Teamdao';
+    src: url('/fonts/TEAMDAO-Regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OPTINaval';
+    src: url('/fonts/OPTINaval.otf') format('truetype');
+}

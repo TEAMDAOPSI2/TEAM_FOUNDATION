@@ -48,7 +48,7 @@ export default function Footer() {
         const result = await res.json();
 
         if (result.message === 'success') {
-            setNotification("You are added to TEAM mail");
+            setNotification("You are added to T.E.A.M mail");
         }
 
     };
@@ -65,7 +65,7 @@ export default function Footer() {
                         <div className="col-md-6">
                             <div className="d-flex h-100 flex-row align-items-center socials">
                                 <div className="footer-logo mr-1">
-                                    <Image src={TeamLogo} width={121} height={31} alt="Team game"/>
+                                    <Image src={TeamLogo} width={121} height={31} alt="T.E.A.M game"/>
                                 </div>
                                 <div className="social-group">
                                     <a href="https://t.me/TEAMDAO" target="_blank" rel="noreferrer">

@@ -8,18 +8,11 @@ export default function Document() {
                     rel="stylesheet"
                     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
                 />
+                <link rel="preconnect" href="https://fonts.googleapis.com"/>
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
                 <link
-                    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap"
-                    rel="stylesheet"
-                />
-                <link
-                    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+                    href="https://fonts.googleapis.com/css2?family=Della+Respira&family=Inter:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
                     rel="stylesheet"/>
-                <link
-                    rel="stylesheet"
-                    type="text/css"
-                    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
-                />
                 <script
                     async
                     src="https://www.googletagmanager.com/gtag/js?id=G-2B1DBKSKZW"

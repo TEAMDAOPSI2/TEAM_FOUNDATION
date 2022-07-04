@@ -7,7 +7,7 @@ export default function index() {
     return (
         <>
             <Head>
-                <title>T.E.A.M FOUNDATION | Security Policy</title>
+                <title>T.E.A.M  FOUNDATION | Security Policy</title>
             </Head>
             <Navbar/>
 
@@ -15,12 +15,12 @@ export default function index() {
                 <section className="small-hero">
                     <div className="container">
                         <div className="col-md-7">
-                            <h2>TEAM Foundation Security Policy</h2>
+                            <h2>T.E.A.M Foundation Security Policy</h2>
                             <div className="text animate__animated animate__go">
                                 <p>
                                     Security is a core value of team, and the input of security researchers acting in
-                                    good-faith is highly valued to help the team ecosystem maintain a high standard for
-                                    the security, including high availability of the team blockchain, and privacy of
+                                    good-faith is highly valued to help the T.E.A.M ecosystem maintain a high standard for
+                                    the security, including high availability of the T.E.A.M blockchain, and privacy of
                                     the community. This includes encouraging responsible vulnerability research and
                                     disclosure.
                                 </p>
@@ -33,9 +33,9 @@ export default function index() {
                         <div className="row justify-content-md-center">
                             <div className="col-md-7 entry">
                                 <p>
-                                    This policy sets out the team Foundation’s definition of good-faith in the context
+                                    This policy sets out the T.E.A.M Foundation’s definition of good-faith in the context
                                     of finding and reporting vulnerabilities, as well as what security researchers can
-                                    expect from the team Foundation in return.
+                                    expect from the T.E.A.M Foundation in return.
                                 </p>
                                 <div className="links">
                                     <Link href="/security/known-scam"><a style={{color: 'red'}}>Known Scam</a></Link>

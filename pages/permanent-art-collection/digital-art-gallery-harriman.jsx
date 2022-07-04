@@ -9,7 +9,7 @@ export default function DigitalArtGalleryHarriman() {
     return (
         <>
             <Head>
-                <title>T.E.A.M FOUNDATION | Digital Art Gallery by Misan Harriman</title>
+                <title>T.E.A.M  FOUNDATION | Digital Art Gallery by Misan Harriman</title>
             </Head>
             <Navbar/>
             <main id={'gallery-single'}>
@@ -42,9 +42,9 @@ export default function DigitalArtGalleryHarriman() {
                     <div className="container">
                         <div className="row justify-content-md-center" style={{marginBottom: '40px'}}>
                             <div className="col-md-7">
-                                The team Foundation Digital Art Gallery showcases a collection of selected artists
+                                The T.E.A.M Foundation Digital Art Gallery showcases a collection of selected artists
                                 working
-                                in the team ecosystem collected by curators appointed by the team Foundation.
+                                in the T.E.A.M ecosystem collected by curators appointed by the T.E.A.M Foundation.
                                 Currently,
                                 this includes the gallery curated by Misan Harriman, with a special focus on
                                 up-and-coming

@@ -22,7 +22,7 @@ export default function Home() {
 
     return (<>
         <Head>
-            <title>T.E.A.M FOUNDATION | Grant Process</title>
+            <title>T.E.A.M  FOUNDATION | Grant Process</title>
         </Head>
 
         {loading ? <Loader/> : ''}
@@ -34,12 +34,12 @@ export default function Home() {
             <section className="small-hero">
                 <div className="container">
                     <div className="col-md-7">
-                        <h2>TEAM Foundation Bounty Program</h2>
+                        <h2>T.E.A.M Foundation Bounty Program</h2>
                         <div className="text animate__animated animate__go">
                             <p>
-                                As part of its mission to support the development of the team ecosystem by
-                                deploying funds for projects, the team Foundation is now offering special bounties
-                                to solve a concrete demand that technical experts in the team community have
+                                As part of its mission to support the development of the T.E.A.M ecosystem by
+                                deploying funds for projects, the T.E.A.M Foundation is now offering special bounties
+                                to solve a concrete demand that technical experts in the T.E.A.M community have
                                 identified as highly beneficial.
                             </p>
                         </div>
@@ -126,7 +126,7 @@ export default function Home() {
                                     <p>
                                         <b>Description of the bounty project: </b>
                                         <span style={{fontWeight: '400'}}>
-                                            Use a game mechanism in a “Hello World” type game to showcase how building blocks on team come together and provide a comprehensive description of how the project is built and how the decisions are made (e.g. through documentation and Medium article). The goal is to integrate team-based elements into a game mechanic as a simple, yet functional, reference on how larger scale games would build on team. <br/>
+                                            Use a game mechanism in a “Hello World” type game to showcase how building blocks on T.E.A.M come together and provide a comprehensive description of how the project is built and how the decisions are made (e.g. through documentation and Medium article). The goal is to integrate team-based elements into a game mechanic as a simple, yet functional, reference on how larger scale games would build on team. <br/>
                                             Popular game mechanisms are for example Racing Games (e.g. tracking a competition, upgrading features on a car through new features and an in-game currency), Battle Royale Games (e.g. find items, record wins, change character appearance), RPGs (e.g. grinding / farming mechanisms, randomness for encounters in game, decision based character development), Fighting games (e.g. tracking health / state of NFT as a character, port rarity into fighting stats as a basis for chance to have a critical hit) etc. Creativity is encouraged.
                                         </span>
                                     </p>
@@ -159,7 +159,7 @@ export default function Home() {
                                     for a completed bounty project which will vary depending on the discretionary
                                     criteria mentioned below. The final bounty amount offered for a completed project
                                     will be decided by the Executive Committee based on recommendations from experts in
-                                    the team ecosystem, including the Technical Advisory Committee (TAC).
+                                    the T.E.A.M ecosystem, including the Technical Advisory Committee (TAC).
                                 </p>
                                 <p>
                                     <b>Discretionary criteria:</b> these evaluation criteria will allow to estimate the
@@ -173,12 +173,12 @@ export default function Home() {
                                     <li><b>Quality of execution:</b> quality of the completed work.</li>
                                 </ul>
                                 <p><b>Total number of bounties:</b> indicates the total number of bounties offered for a
-                                    specific bounty project by the team Foundation (one bounty per team per project).
+                                    specific bounty project by the T.E.A.M Foundation (one bounty per T.E.A.M per project).
                                     I.e. if the total number of bounties equals 3, this means that maximum three teams
                                     will be paid for a specific completed bounty project. </p>
                                 <p><b>Number of teams that have announced working on the bounty project: </b> reflects
                                     the number of teams that have announced they are currently working on a bounty
-                                    project. The team Foundation updates this information on an ongoing basis.</p>
+                                    project. The T.E.A.M Foundation updates this information on an ongoing basis.</p>
                             </div>
                         </div>
                     </div>
@@ -200,7 +200,7 @@ export default function Home() {
                                              <div className="title">
                                                  <div>
                                                      <h3>Select the Bounty Project</h3>
-                                                     <p className="title-sub">Select the bounty project your team wants
+                                                     <p className="title-sub">Select the bounty project your T.E.A.M wants
                                                          to work on and get started!</p>
                                                  </div>
                                              </div>
@@ -259,7 +259,7 @@ export default function Home() {
                                          trigger={<><h3>Completed Bounty Work’s Review</h3><p className="title-sub">The
                                              submitted work is reviewed</p></>}>
                                 <p>
-                                    The submitted work is quickly reviewed by the team Foundation Operations team to
+                                    The submitted work is quickly reviewed by the T.E.A.M Foundation Operations T.E.A.M to
                                     make sure it contains all the information mentioned above. If no information is
                                     missing, it is brought to the Technical Advisory Committee (TAC) for review and
                                     recommendations. If approved by the TAC it is shared with the Executive Committee
@@ -279,7 +279,7 @@ export default function Home() {
                                          trigger={<><h3>Agreement Creation</h3><p className="title-sub">Collaboration to
                                              create the legal agreement</p></>}>
                                 <p>
-                                    The team Foundation collaborates with the teams whose work has been approved to
+                                    The T.E.A.M Foundation collaborates with the teams whose work has been approved to
                                     create a legal agreement (contract) for the final payment. At this stage, the team
                                     Foundation will require additional information from the teams to finalize the
                                     paperwork.
@@ -293,8 +293,8 @@ export default function Home() {
                 <div className="container">
                     <div className="row justify-content-md-center">
                         <div className="col-md-7">
-                            <div style={{padding: '20px', background: '#f3e9dc', marginBottom: '20px;', color: '#333'}}>
-                                <h2 className="title-section">Contact</h2>
+                            <div style={{padding: '20px', background: '#0fc713', marginBottom: '20px;', color: '#333'}}>
+                                <h2 className="title-section" style={{color: '#333'}}>Contact</h2>
                                 <p>
                                     If you have any questions regarding the bounty program, please reach out
                                     to <Link href="mailto:bounty@team.foundation"><a>bounty@team.foundation</a></Link>

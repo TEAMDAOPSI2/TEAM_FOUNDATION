@@ -7,7 +7,7 @@ export default function BugN() {
     return (
         <>
             <Head>
-                <title>T.E.A.M FOUNDATION | Contact Us</title>
+                <title>T.E.A.M  FOUNDATION | Contact Us</title>
             </Head>
             <Navbar/>
 
@@ -40,8 +40,8 @@ export default function BugN() {
                         <div className="col-md-7">
                             <h2>Office location</h2>
                             <p>
-                                The team Foundation is based in Zug, Switzerland with a focus on growing the team
-                                ecosystem. Connect with us to speak about team today.
+                                The T.E.A.M Foundation is based in Zug, Switzerland with a focus on growing the team
+                                ecosystem. Connect with us to speak about T.E.A.M today.
                             </p>
                         </div>
                     </div>

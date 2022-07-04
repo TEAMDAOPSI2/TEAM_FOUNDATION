@@ -110,7 +110,7 @@ const RBNavBar = () => {
                         <a>
                             <Image width={131}
                                    height={38}
-                                   src={TeamLogo} alt="Team Games" className={`brand_img`}/>
+                                   src={TeamLogo} alt="T.E.A.M Games" className={`brand_img`}/>
                         </a>
                     </Link>
                     <Navbar.Toggle onClick={() => setIsOpen(!isOpen)}
@@ -155,7 +155,7 @@ const RBNavBar = () => {
                         {/*         className="btn_b me-2 reflect-left w-100">*/}
                         {/*        <div style={{width: 150 + 'px'}}*/}
                         {/*             className="d-flex flex-row justify-content-center align-items-center flex-grow-1 add-meta btn_b--textwrap">*/}
-                        {/*            <img src="images/team-meta.png" alt="TEAM METAMASK" className={`coin-link`}/>*/}
+                        {/*            <img src="images/team-meta.png" alt="T.E.A.M METAMASK" className={`coin-link`}/>*/}
                         {/*            <span className={`text-center d-flex flex-column`}>*/}
                         {/*            <span>+ADD <span className="neon">$TEAM</span></span> <span>METAMASK</span>*/}
                         {/*        </span>*/}

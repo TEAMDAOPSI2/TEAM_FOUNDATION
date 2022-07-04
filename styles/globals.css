@@ -110,7 +110,7 @@ img {
 }
 
 .bg-third {
-    background-color: #b7a48e;
+    background-color: #0fc713;
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -1090,10 +1090,11 @@ main {
 }
 
 .small-hero h2, .section-gallery-hero h2 {
-    font-family: Inter, sans-serif;
+   font-family: 'Della Respira', serif;
     font-weight: 700;
     font-size: 2.625rem;
     margin-bottom: 25px;
+    color: #1b1b1b;
 }
 
 /*grants page*/
@@ -1104,7 +1105,8 @@ main {
 }
 
 .process-block h2 {
-    font-family: Inter, sans-serif;
+    /*font-family: Inter, sans-serif;*/
+   font-family: 'Della Respira', serif;
     font-weight: 700;
     font-size: 2.625rem;
     margin-bottom: 25px;
@@ -1153,7 +1155,7 @@ main {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    background: #f3e9dc;
+    background: #2afe30;
 }
 
 .collapse-block .Collapsible {
@@ -1161,15 +1163,15 @@ main {
 }
 
 .collapse-block article:nth-child(1) {
-    background: #f3e9dc;
+    background: #2afe30;
 }
 
 .collapse-block article:nth-child(2) {
-    background: #d5c6b5;
+    background: #0fc713;
 }
 
 .collapse-block article:nth-child(3) {
-    background: #b7a48e;
+    background: #1ae120;
 }
 
 .collapse-block article > div:first-child {
@@ -1260,7 +1262,8 @@ main {
 }
 
 .milestone h2 {
-    font-family: Inter, sans-serif;
+    /*font-family: Inter, sans-serif;*/
+   font-family: 'Della Respira', serif;
     font-weight: 700;
     font-size: 2.625rem;
     margin-bottom: 25px;
@@ -1268,7 +1271,7 @@ main {
 
 .box-milestone {
     position: relative;
-    background: #d5c6b5;
+    background: #2afe30;
     padding: 20px;
     color: #333;
     margin-bottom: 20px;
@@ -1307,7 +1310,8 @@ main {
 }
 
 .interest h2 {
-    font-family: Inter, sans-serif;
+    /*font-family: Inter, sans-serif;*/
+   font-family: 'Della Respira', serif;
     font-weight: 700;
     font-size: 2.625rem;
     margin-bottom: 25px;
@@ -1384,7 +1388,7 @@ main {
 
 .box-bounty {
     margin-bottom: 20px;
-    background: #f3e9dc;
+    background: #0fc713;
     color: #333;
     padding: 20px;
     font-family: Roboto, sans-serif;
@@ -1501,7 +1505,7 @@ main {
     margin-top: 60px;
     padding-top: 60px;
     padding-bottom: 60px;
-    background: #b7a48e;
+    background: #0fc713;
 }
 
 .list-reports .entry {
