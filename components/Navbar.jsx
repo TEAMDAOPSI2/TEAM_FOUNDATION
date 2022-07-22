@@ -7,6 +7,7 @@ import Link from "next/link";
 import React, {useEffect, useState} from "react";
 import {NavDropdown} from "react-bootstrap";
 import Image from "next/image";
+import Cursor from "../utils/cursor";
 
 
 const RBNavBar = () => {
@@ -200,6 +201,7 @@ const RBNavBar = () => {
                     <button onClick={disconnectWallet} className="btn btn-default">Disconnect</button>
                 </Modal.Body>
             </Modal>
+            <Cursor/>
         </>
     );
 };
