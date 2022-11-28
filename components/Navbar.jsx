@@ -141,7 +141,7 @@ const RBNavBar = () => {
                                     Program</NavDropdown.Item>
                                 <NavDropdown.Item href="/security/known-scam">Known Scam</NavDropdown.Item>
                             </NavDropdown>
-                            <NavDropdown title="Art Collection" id="basic-nav-dropdown">
+                            <NavDropdown title="SPORTS COLLECTION" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="/permanent-art-collection">Permanent Art
                                     Collection</NavDropdown.Item>
                                 <NavDropdown.Item href="/permanent-art-collection/digital-art-gallery-harriman">Digital Art Gallery by Misan Harriman</NavDropdown.Item>
