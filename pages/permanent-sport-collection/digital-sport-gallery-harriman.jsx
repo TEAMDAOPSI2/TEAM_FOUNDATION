@@ -4,9 +4,10 @@ import Link from "next/link";
 import Image from "next/image";
 import Avatar from "@public/images/Misan-Harriman-Digital-Art-Gallery-Tezos-Foundation-1024x1278.jpg";
 import Footer from "@components/Footer";
-import 'photoswipe/dist/photoswipe.css';
 import {Gallery, Item} from 'react-photoswipe-gallery'
 import Foto1 from "public/images/art/samuele-bertoli-p_Hf6WlgKEE-unsplash.png";
+
+import 'photoswipe/dist/photoswipe.css';
 
 export default function DigitalSportGalleryHarriman() {
 
@@ -15,7 +16,7 @@ export default function DigitalSportGalleryHarriman() {
     return (
         <>
             <Head>
-                <title>T.E.A.M FOUNDATION | Digital Art Gallery by Misan Harriman</title>
+                <title>T.E.A.M FOUNDATION | Digital Sport Gallery by Misan Harriman</title>
             </Head>
             <Navbar/>
             <main id={'gallery-single'}>
@@ -23,7 +24,7 @@ export default function DigitalSportGalleryHarriman() {
                     <div className="container">
                         <div className="col-md-8">
                             <h2>
-                                Digital Art Gallery by Misan Harriman
+                                Digital Sport Gallery by Misan Harriman
                             </h2>
                         </div>
                     </div>
@@ -48,7 +49,7 @@ export default function DigitalSportGalleryHarriman() {
                     <div className="container">
                         <div className="row justify-content-md-center" style={{marginBottom: '40px'}}>
                             <div className="col-md-7">
-                                The T.E.A.M Foundation Digital Art Gallery showcases a collection of selected artists
+                                The T.E.A.M Foundation Digital Sport Gallery showcases a collection of selected artists
                                 working
                                 in the T.E.A.M ecosystem collected by curators appointed by the T.E.A.M Foundation.
                                 Currently,

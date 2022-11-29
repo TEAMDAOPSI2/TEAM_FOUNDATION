@@ -1,7 +1,6 @@
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Modal from "react-bootstrap/Modal";
-import Button from "react-bootstrap/Button";
 import TeamLogo from "@public/images/team-logo.png";
 import Link from "next/link";
 import React, {useEffect, useState} from "react";
