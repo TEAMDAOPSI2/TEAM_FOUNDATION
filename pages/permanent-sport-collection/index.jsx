@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Navbar from "@components/Navbar";
 import Footer from "@components/Footer";
-import Imgsport from "@public/images/art-collection-square-1200x1203.jpg";
+import ImgSport from "@public/images/art-collection-square-1200x1203.jpg";
 import Avatar from "@public/images/Misan-Harriman-Digital-art-Gallery-Tezos-Foundation-1024x1278.jpg";
 import Image from "next/image";
 import Link from "next/link";
@@ -52,7 +52,7 @@ export default function index() {
                                         <Image
                                             layout='fill'
                                             objectFit='cover'
-                                            src={Imgsport}
+                                            src={ImgSport}
                                             alt="Permanent sport Collection"/>
                                     </div>
                                 </div>

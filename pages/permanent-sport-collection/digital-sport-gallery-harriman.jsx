@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Avatar from "@public/images/Misan-Harriman-Digital-Art-Gallery-Tezos-Foundation-1024x1278.jpg";
 import Footer from "@components/Footer";
-import 'photoswipe/dist/photoswipe.css'
+import 'photoswipe/dist/photoswipe.css';
 import {Gallery, Item} from 'react-photoswipe-gallery'
 import Foto1 from "public/images/art/samuele-bertoli-p_Hf6WlgKEE-unsplash.png";
 
