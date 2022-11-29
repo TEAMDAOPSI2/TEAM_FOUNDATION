@@ -4,12 +4,18 @@ import Link from "next/link";
 import Image from "next/image";
 import Avatar from "@public/images/Misan-Harriman-Digital-Art-Gallery-Tezos-Foundation-1024x1278.jpg";
 import Footer from "@components/Footer";
+import 'photoswipe/dist/photoswipe.css'
+import {Gallery, Item} from 'react-photoswipe-gallery'
+import Foto1 from "public/images/art/samuele-bertoli-p_Hf6WlgKEE-unsplash.png";
 
-export default function DigitalArtGalleryHarriman() {
+export default function DigitalSportGalleryHarriman() {
+
+
+
     return (
         <>
             <Head>
-                <title>T.E.A.M  FOUNDATION | Digital Art Gallery by Misan Harriman</title>
+                <title>T.E.A.M FOUNDATION | Digital Art Gallery by Misan Harriman</title>
             </Head>
             <Navbar/>
             <main id={'gallery-single'}>
@@ -87,28 +93,55 @@ export default function DigitalArtGalleryHarriman() {
                 <section className="list-of-arts">
                     <div className="container">
                         <div className="row">
-                            {
-                                [1,2,3,4].map((item, index) => {
-                                    return (
-                                        <div className="col-md-3" key={item}>
-                                            <div className="item-art">
-                                                <div className="image">
-                                                    <img
-                                                        src="https://tezos.foundation/wp-content/uploads/2022/06/QmciXhHDZFzFgFvFMwxP9LbQCP6M85tTw1PQUddytQ1qsC_cropped-640x968.png"
-                                                        alt=""/>
-                                                </div>
-                                                <div className="entry">
-                                                    <h4>Ruja</h4>
-                                                    <p>
-                                                        by Barbara Bezina <br/> <br/>
-                                                        <Link href="#"><a>Hic ec nft</a></Link>
-                                                    </p>
-                                                </div>
-                                            </div>
+                            <Gallery>
+                                <div className="col-md-3">
+                                    <div className="item-art">
+                                        <div className="image">
+                                            <Item
+                                                original="https://tezos.foundation/wp-content/uploads/2022/06/QmciXhHDZFzFgFvFMwxP9LbQCP6M85tTw1PQUddytQ1qsC_cropped-640x968.png"
+                                                thumbnail="https://tezos.foundation/wp-content/uploads/2022/06/QmciXhHDZFzFgFvFMwxP9LbQCP6M85tTw1PQUddytQ1qsC_cropped-640x968.png"
+                                                width="720"
+                                                height="1030"
+                                            >
+                                                {({ref, open}) => (
+                                                    <img ref={ref} onClick={open}
+                                                         src="https://tezos.foundation/wp-content/uploads/2022/06/QmciXhHDZFzFgFvFMwxP9LbQCP6M85tTw1PQUddytQ1qsC_cropped-640x968.png"/>
+                                                )}
+                                            </Item>
                                         </div>
-                                    )
-                                })
-                            }
+                                        <div className="entry">
+                                            <h4>Ruja</h4>
+                                            <p>
+                                                by Barbara Bezina <br/> <br/>
+                                                <Link href="#"><a>Hic ec nft</a></Link>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-md-3">
+                                    <div className="item-art">
+                                        <div className="image">
+                                            <Item
+                                                original={Foto1.src}
+                                                thumbnail={Foto1.src}
+                                                width="720"
+                                                height="1030"
+                                            >
+                                                {({ref, open}) => (
+                                                    <img className="small-content-gallery" ref={ref} onClick={open} src={Foto1.src}/>
+                                                )}
+                                            </Item>
+                                        </div>
+                                        <div className="entry">
+                                            <h4>Ruja</h4>
+                                            <p>
+                                                by Barbara Bezina <br/> <br/>
+                                                <Link href="#"><a>Hic ec nft</a></Link>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Gallery>
                         </div>
                     </div>
                 </section>
