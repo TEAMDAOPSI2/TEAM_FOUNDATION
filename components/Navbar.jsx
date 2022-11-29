@@ -1,7 +1,6 @@
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Modal from "react-bootstrap/Modal";
-import Button from "react-bootstrap/Button";
 import TeamLogo from "@public/images/team-logo.png";
 import Link from "next/link";
 import React, {useEffect, useState} from "react";
@@ -142,9 +141,9 @@ const RBNavBar = () => {
                                 <NavDropdown.Item href="/security/known-scam">Known Scam</NavDropdown.Item>
                             </NavDropdown>
                             <NavDropdown title="SPORTS COLLECTION" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="/permanent-art-collection">Permanent Sport
+                                <NavDropdown.Item href="/permanent-sport-collection">Permanent Sport
                                     Collection</NavDropdown.Item>
-                                <NavDropdown.Item href="/permanent-art-collection/digital-art-gallery-harriman">Digital Art Gallery by Misan Harriman</NavDropdown.Item>
+                                <NavDropdown.Item href="/permanent-sport-collection/digital-sport-gallery-harriman">Digital Sport Gallery by Misan Harriman</NavDropdown.Item>
                             </NavDropdown>
                             <Link href="/contact-us">
                                 <a className="nav-link">Contact us</a>
