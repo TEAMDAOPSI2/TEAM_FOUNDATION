@@ -2,7 +2,7 @@ import Head from "next/head";
 import Navbar from "@components/Navbar";
 import Link from "next/link";
 import Image from "next/image";
-import Avatar from "@public/images/Misan-Harriman-Digital-Art-Gallery-Tezos-Foundation-1024x1278.jpg";
+import Avatar from "@public/images/digital-art-misan.jpg";
 import Footer from "@components/Footer";
 import {Gallery, Item} from 'react-photoswipe-gallery'
 import Foto1 from "public/images/art/samuele-bertoli-p_Hf6WlgKEE-unsplash.png";
