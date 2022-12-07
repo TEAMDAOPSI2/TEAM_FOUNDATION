@@ -34,25 +34,19 @@ export default function Home() {
                         <div className="row">
                             <div className="col-md-8">
                                 <h2 className="big-glow-text pt-4">
-                                    We believe that T.E.A.M will drive social, political and economic innovation on a global
-                                    scale.
+                                    WE BELIEVE THE T.E.A.M Foundation's mission driven initiatives  WILL DRIVE SPORTS, INNOVATION, ADOPTION, EQUALITY ON A GLOBAL SCALE.
                                 </h2>
                                 <div className="text animate__animated  animate__fadeInLeft" style={{animationDuration: '1s'}}>
                                     <p>
-                                        T.E.A.M is an open-source, self-upgradable, energy-efficient and built to last Proof
-                                        of Stake blockchain protocol for assets and applications backed by a global
-                                        community of validators, researchers, and builders.
+                                        T.E.A.M is an open-source, self-upgradable, energy-efficient and built to last Proof of Stake blockchain protocol for assets and applications backed by a global community of validators, researchers, and builders.
                                     </p>
                                     <p>
-                                        The T.E.A.M Foundation is one among many other entities in the T.E.A.M ecosystem and
-                                        stands as part of the community in support of the T.E.A.M protocol and ecosystem. To
-                                        do so, the T.E.A.M Foundation deploys resources to entities and initiatives that will
-                                        help to ensure the long-term success of team.
+                                        The T.E.A.M Foundation is one among many other entities in the T.E.A.M ecosystem and stands as part of the community in support of the T.E.A.M protocol and ecosystem. To do so, the T.E.A.M Foundation deploys resources to entities and initiatives that will help to ensure the long-term success of the organization.
                                     </p>
                                 </div>
                                 <div className="links">
                                     <div className="link">
-                                        <Link href="/about"><a>About us</a></Link>
+                                        <Link href="#"><a>About us</a></Link>
                                     </div>
                                     <div className="link">
                                         <Link href="https://teamdao.com"><a>Learn about the T.E.A.M technology</a></Link>

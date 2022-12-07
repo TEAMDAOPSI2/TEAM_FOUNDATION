@@ -128,12 +128,6 @@ const RBNavBar = () => {
                             <Link href="/bounty-program">
                                 <a className="nav-link">Bounty Program</a>
                             </Link>
-                            <Link href="/news">
-                                <a className="nav-link">News</a>
-                            </Link>
-                            <Link href="/reports">
-                                <a className="nav-link">Reports</a>
-                            </Link>
                             <NavDropdown title="Security" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="/security"> Security Policy</NavDropdown.Item>
                                 <NavDropdown.Item href="/security/bug-bounty-program">Bug Bounty
@@ -143,7 +137,6 @@ const RBNavBar = () => {
                             <NavDropdown title="SPORTS COLLECTION" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="/permanent-sport-collection">Permanent Sport
                                     Collection</NavDropdown.Item>
-                                <NavDropdown.Item href="/permanent-sport-collection/digital-sport-gallery-harriman">Digital Sport Gallery by Misan Harriman</NavDropdown.Item>
                             </NavDropdown>
                             <Link href="/contact-us">
                                 <a className="nav-link">Contact us</a>

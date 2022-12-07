@@ -18,7 +18,7 @@ export default function index() {
                 <section className="section-gallery-hero">
                     <div className="container">
                         <div className="col-md-8">
-                            <h2>
+                            <h2 style={{color: '#0fc713'}}>
                                 T.E.A.M Foundation Permanent sport Collection
                             </h2>
                             <div className="text">
@@ -28,7 +28,7 @@ export default function index() {
                                     communities, cultures and future technologies.
                                 </p>
                             </div>
-                            <Link href="#"><a className="">Digital sport By Misan Hariman</a></Link>
+                            <Link href="#"><a className="">Digital sport by TEAM</a></Link>
                         </div>
                     </div>
                 </section>
@@ -58,9 +58,9 @@ export default function index() {
                                 </div>
                                 <div className="col-md-6">
                                     <div className="entry" style={{paddingTop: '20px', position: 'relative', height: '100%'}}>
-                                        <h3 className="mb-5">Digital sport Gallery by Misan Harriman</h3>
+                                        <h3 className="mb-5">Digital sport Gallery by Team Alpha</h3>
                                         <p className="mb-5">
-                                            Discover the T.E.A.M Foundation Digital sport Gallery curated by Misan Harriman,
+                                            Discover the T.E.A.M Foundation Digital sport Gallery curated by Team Alpha,
                                             featuring a collection of select’ sportwork created on team.
                                         </p>
                                         <Link href="#"><a className="read-more">View Gallery</a></Link>
@@ -68,7 +68,7 @@ export default function index() {
                                             <div className="avatar" style={{overflow: 'hidden',height: '50px', width:'50px', borderRadius: '50%', position: 'relative'}}>
                                                 <Image src={Avatar} alt="Misan Harriman" layout="fill" objectFit="cover"/>
                                             </div>
-                                            <div className="name ms-3">Misan Harriman</div>
+                                            <div className="name ms-3">Team Alpha</div>
                                         </div>
                                     </div>
                                 </div>
