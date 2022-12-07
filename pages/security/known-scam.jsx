@@ -29,23 +29,20 @@ export default function KnownScam() {
                                     <li>teamfoundations.com</li>
                                     <li>team.com.add-all.site</li>
                                     <li>1-team.com</li>
-                                    <li>tesoz-foundation.com</li>
+                                    <li>team-foundation.com</li>
                                     <li>xtz-wallet.io</li>
                                     <li>team-link.com</li>
                                     <li>safe-blockchain.com</li>
                                     <li>Telegram Group: T.E.A.M Official Support✪</li>
                                     <li>team-foundation.io</li>
-                                    <li>tezbox.io</li>
+                                    <li>teambox.io</li>
                                     <li>team-web.foundation</li>
                                     <li>teamweb.info</li>
                                     <li>teamweb.org</li>
                                     <li>teamwebwallet.com</li>
-                                    <li>tezbox.net</li>
-                                    <li>tezbox.info</li>
+                                    <li>teambox.net</li>
+                                    <li>teambox.info</li>
                                     <li>galleon.network</li>
-                                    <li>tesoz.foundation</li>
-                                    <li>tézos.com</li>
-                                    <li>tézos.net</li>
                                     <li>team-global.com</li>
                                     <li>teamfoundation.io</li>
                                     <li>team-foundation.com</li>

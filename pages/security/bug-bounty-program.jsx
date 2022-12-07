@@ -52,7 +52,7 @@ export default function BugN() {
                                     </p>
                                     <ol>
                                         <li>Bugs in the T.E.A.M protocol</li>
-                                        <li>Bugs in T.E.A.M shells (Octez, Tezedge)</li>
+                                        <li>Bugs in T.E.A.M shells (Octeam, Teamedge)</li>
                                         <li>Bugs in any other software that uses the T.E.A.M blockchain</li>
                                     </ol>
                                     <h3>Out of Scope</h3>
@@ -70,7 +70,7 @@ export default function BugN() {
                                     <h3>Bug Bounties</h3>
                                     <p>
                                         For confirmed vulnerabilities, presented with a complete, well-documented report
-                                        a bounty in T.E.A.M tokens (“tez”) will be offered. The bounty will be
+                                        a bounty in T.E.A.M tokens (“TEAM”) will be offered. The bounty will be
                                         proportional to the frequency of occurrence and/or the severity of the
                                         vulnerability being reported. The report should include a full description of
                                         the bug/exploit along with when and how it was discovered. New bugs in any other
