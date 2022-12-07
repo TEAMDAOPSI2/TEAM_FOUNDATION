@@ -233,7 +233,7 @@ export default function Home() {
                                         <div className="ico">
                                             <Image src={CandleImg}/>
                                         </div>
-                                        <h3 className="title">Baking</h3>
+                                        <h3 className="title">STAKING</h3>
                                         <p className="text-lead">
                                             T.E.A.M has a growing number of bakers in its ecosystem that help secure the
                                             network by signing and publishing blocks. Our goal is to empower bakers by
@@ -250,7 +250,7 @@ export default function Home() {
                                         <div className="ico">
                                             <Image src={CandleImg}/>
                                         </div>
-                                        <h3 className="title">Baking</h3>
+                                        <h3 className="title">STAKING</h3>
                                         <p className="text-lead">
                                             T.E.A.M has a growing number of bakers in its ecosystem that help secure the
                                             network by signing and publishing blocks. Our goal is to empower bakers by
@@ -267,7 +267,7 @@ export default function Home() {
                                         <div className="ico">
                                             <Image src={CandleImg}/>
                                         </div>
-                                        <h3 className="title">Baking</h3>
+                                        <h3 className="title">STAKING</h3>
                                         <p className="text-lead">
                                             T.E.A.M has a growing number of bakers in its ecosystem that help secure the
                                             network by signing and publishing blocks. Our goal is to empower bakers by
@@ -284,7 +284,7 @@ export default function Home() {
                                         <div className="ico">
                                             <Image src={CandleImg}/>
                                         </div>
-                                        <h3 className="title">Baking</h3>
+                                        <h3 className="title">STAKING</h3>
                                         <p className="text-lead">
                                             T.E.A.M has a growing number of bakers in its ecosystem that help secure the
                                             network by signing and publishing blocks. Our goal is to empower bakers by
@@ -301,7 +301,7 @@ export default function Home() {
                                         <div className="ico">
                                             <Image src={CandleImg}/>
                                         </div>
-                                        <h3 className="title">Baking</h3>
+                                        <h3 className="title">STAKING</h3>
                                         <p className="text-lead">
                                             T.E.A.M has a growing number of bakers in its ecosystem that help secure the
                                             network by signing and publishing blocks. Our goal is to empower bakers by
@@ -318,7 +318,7 @@ export default function Home() {
                                         <div className="ico">
                                             <Image src={CandleImg}/>
                                         </div>
-                                        <h3 className="title">Baking</h3>
+                                        <h3 className="title">STAKING</h3>
                                         <p className="text-lead">
                                             T.E.A.M has a growing number of bakers in its ecosystem that help secure the
                                             network by signing and publishing blocks. Our goal is to empower bakers by
