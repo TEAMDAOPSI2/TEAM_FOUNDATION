@@ -104,7 +104,7 @@ const RBNavBar = () => {
     console.log(isOpen);
     return (
         <>
-            <Navbar className="fixed-top bg-black" expand="lg" id="myNavbar">
+            <Navbar className="fixed-top" expand="lg" id="myNavbar">
                 <div className="container">
                     <Link className="navbar-brand text-white" href="/">
                         <a>

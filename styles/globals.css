@@ -139,6 +139,10 @@ img {
     background-color: #0fc713;
 }
 
+#myNavbar{
+    background-color: rgba(0, 0, 0, 0.75) !important;
+}
+
 .navbar-light .navbar-toggler-icon {
     background-image: url('../images/candy_open.svg');
 }
@@ -161,9 +165,9 @@ img {
 }
 
 .navbar {
-    border-bottom-width: 4px;
+    border-bottom-width: 2px;
     background: linear-gradient(to left, #1b8520, #1b8520, #2afe30, #2afe30) left bottom #000 no-repeat;
-    background-size: 100% 5px; /* if linear-gradient, we need to resize it */
+    background-size: 100% 2px; /* if linear-gradient, we need to resize it */
 }
 
 .modal-disconnect {
@@ -629,9 +633,9 @@ Footer
 .footer {
     color: white;
     width: 100%;
-
     background: linear-gradient(to left, #1b8520, #1b8520, #2afe30, #2afe30) left top #000 no-repeat;
-    background-size: 100% 5px; /* if linear-gradient, we need to resize it */
+    background-color: rgba(0, 0, 0, 0.75) !important;
+    background-size: 100% 2px; /* if linear-gradient, we need to resize it */
 }
 
 .fixed-bottom {
