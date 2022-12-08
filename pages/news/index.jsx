@@ -45,71 +45,71 @@ export default function News() {
                 </div>
             </section>
             <section className="main-weekly-news">
-                <div className="container-fluid" style={{paddingLeft: '0'}}>
-                    <div className="row">
-                        <div className="col-md-7 position-relative">
-                            <div className="picture">
-                                <Image src={MainNewsImage}/>
-                            </div>
-                        </div>
-                        <div className="col-md-5 entry">
-                            <div className="meta-post">
-                                <Link href="#"><a>Announcement</a></Link>
-                                <Link href="#"><a>Blog</a></Link>
-                                <Link href="#"><a>Weekly Update</a></Link>
-                                <time className="date label">12.05.2022</time>
-                            </div>
-                            <h3 className="title">
-                                T.E.A.M Foundation Launches Permanent Art Collection, and a Digital Art Gallery Curated by
-                                Photographer Misan Harriman
-                            </h3>
-                            <div className="post-teaser">
-                                <p>
-                                    We are proud to announce the creation of a first-of-its-kind Permanent Art
-                                    Collection
-                                    (PAC) to…
-                                </p>
-                            </div>
-                            <Link href="#"><a className="read-more">Read more</a></Link>
-                        </div>
-                    </div>
-                </div>
+                {/*<div className="container-fluid" style={{paddingLeft: '0'}}>*/}
+                {/*    <div className="row">*/}
+                {/*        <div className="col-md-7 position-relative">*/}
+                {/*            <div className="picture">*/}
+                {/*                <Image src={MainNewsImage}/>*/}
+                {/*            </div>*/}
+                {/*        </div>*/}
+                {/*        <div className="col-md-5 entry">*/}
+                {/*            <div className="meta-post">*/}
+                {/*                <Link href="#"><a>Announcement</a></Link>*/}
+                {/*                <Link href="#"><a>Blog</a></Link>*/}
+                {/*                <Link href="#"><a>Weekly Update</a></Link>*/}
+                {/*                <time className="date label">12.05.2022</time>*/}
+                {/*            </div>*/}
+                {/*            <h3 className="title">*/}
+                {/*                T.E.A.M Foundation Launches Permanent Art Collection, and a Digital Art Gallery Curated by*/}
+                {/*                Photographer Misan Harriman*/}
+                {/*            </h3>*/}
+                {/*            <div className="post-teaser">*/}
+                {/*                <p>*/}
+                {/*                    We are proud to announce the creation of a first-of-its-kind Permanent Art*/}
+                {/*                    Collection*/}
+                {/*                    (PAC) to…*/}
+                {/*                </p>*/}
+                {/*            </div>*/}
+                {/*            <Link href="#"><a className="read-more">Read more</a></Link>*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
             </section>
             <section className="list-news">
                 <div className="container">
-                    <div className="row justify-content-md-center">
-                        <div className="col-md-7">
-                            {
-                                [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(item => {
-                                    return (
-                                        <div className="item-news entry" key={item}>
-                                            <div className="meta-post">
-                                                <Link href="#"><a>Announcement</a></Link>
-                                                <Link href="#"><a>Blog</a></Link>
-                                                <Link href="#"><a>Weekly Update</a></Link>
-                                                <time className="date label">12.05.2022</time>
-                                            </div>
-                                            <h3 className="title">
-                                                T.E.A.M Foundation Launches Permanent Art Collection, and a Digital Art
-                                                Gallery
-                                                Curated by
-                                                Photographer Misan Harriman
-                                            </h3>
-                                            <div className="post-teaser">
-                                                <p>
-                                                    We are proud to announce the creation of a first-of-its-kind
-                                                    Permanent Art
-                                                    Collection
-                                                    (PAC) to…
-                                                </p>
-                                            </div>
-                                            <Link href="#"><a className="read-more">Read more</a></Link>
-                                        </div>
-                                    )
-                                }, this)
-                            }
-                        </div>
-                    </div>
+                    {/*<div className="row justify-content-md-center">*/}
+                    {/*    <div className="col-md-7">*/}
+                    {/*        {*/}
+                    {/*            [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(item => {*/}
+                    {/*                return (*/}
+                    {/*                    <div className="item-news entry" key={item}>*/}
+                    {/*                        <div className="meta-post">*/}
+                    {/*                            <Link href="#"><a>Announcement</a></Link>*/}
+                    {/*                            <Link href="#"><a>Blog</a></Link>*/}
+                    {/*                            <Link href="#"><a>Weekly Update</a></Link>*/}
+                    {/*                            <time className="date label">12.05.2022</time>*/}
+                    {/*                        </div>*/}
+                    {/*                        <h3 className="title">*/}
+                    {/*                            T.E.A.M Foundation Launches Permanent Art Collection, and a Digital Art*/}
+                    {/*                            Gallery*/}
+                    {/*                            Curated by*/}
+                    {/*                            Photographer Misan Harriman*/}
+                    {/*                        </h3>*/}
+                    {/*                        <div className="post-teaser">*/}
+                    {/*                            <p>*/}
+                    {/*                                We are proud to announce the creation of a first-of-its-kind*/}
+                    {/*                                Permanent Art*/}
+                    {/*                                Collection*/}
+                    {/*                                (PAC) to…*/}
+                    {/*                            </p>*/}
+                    {/*                        </div>*/}
+                    {/*                        <Link href="#"><a className="read-more">Read more</a></Link>*/}
+                    {/*                    </div>*/}
+                    {/*                )*/}
+                    {/*            }, this)*/}
+                    {/*        }*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
                 </div>
             </section>
         </main>
