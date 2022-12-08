@@ -62,7 +62,7 @@ export default function KnownScam() {
                                 </ul>
                                 <p>
                                     <b>If a scam or scam domain is identified, an e-mail should immediately be sent
-                                        to <Link href="mailto:scamreport@team.com"><a>scamreport@team.com</a></Link>.</b>
+                                        to <Link href="mailto:report@team.foundation"><a>report@team.foundation</a></Link>.</b>
                                 </p>
                             </div>
                         </div>
