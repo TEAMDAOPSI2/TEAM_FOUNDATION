@@ -22,21 +22,6 @@ export default function Footer() {
     const [email, setEmail] = useState('');
 
 
-    const fetchNotifications = () => {
-        fetch('https://script.google.com/macros/s/AKfycbwYEFQFcl2Anqos_CQ5qnYMtHP07Ej9xZNNykjyGMTabeS3SPVTpa8YIAFsE7JnHrv7bw/exec?action=notif')
-            .then(res => res.json())
-            .then(res => {
-                setNotification(res[0].message);
-            });
-        setTimeout(() => {
-            setNotification(null)
-        }, 4000);
-    }
-
-    useEffect(() => {
-        setInterval(fetchNotifications, 8000);
-    }, []);
-
 
     const submitEmail = async () => {
         event.preventDefault();

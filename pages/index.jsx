@@ -53,11 +53,11 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-4 d-flex align-items-center">
-                                <div className="image-container team-flash">
-                                    <Image src={robot} className="teamdao-pulse" />
-                                </div>
-                            </div>
+                            {/*<div className="col-md-4 d-flex align-items-center">*/}
+                            {/*    <div className="image-container team-flash">*/}
+                            {/*        <Image src={robot} className="teamdao-pulse" />*/}
+                            {/*    </div>*/}
+                            {/*</div>*/}
                         </div>
                     </div>
                 </section>
