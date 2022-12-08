@@ -34,7 +34,7 @@ export default function Home() {
                         <div className="row">
                             <div className="col-md-8">
                                 <h2 className="big-glow-text pt-4">
-                                    WE BELIEVE THE T.E.A.M Foundation's mission driven initiatives  WILL DRIVE SPORTS, INNOVATION, ADOPTION, EQUALITY ON A GLOBAL SCALE.
+                                    THE T.E.A.M Foundation's mission driven initiatives  WILL DRIVE SPORTS, INNOVATION, ADOPTION, EQUALITY ON A GLOBAL SCALE.
                                 </h2>
                                 <div className="text animate__animated  animate__fadeInLeft" style={{animationDuration: '1s'}}>
                                     <p>

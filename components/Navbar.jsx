@@ -120,26 +120,25 @@ const RBNavBar = () => {
                     <Navbar.Collapse id="basic-navbar-nav" className={`collapse-animation`}>
                         <Nav className="ml-auto ms-auto" id="myNavItem">
                             <Link href="/#Home">
-                                <a className="nav-link">About us</a>
+                                <a className="nav-link">ECOSYSTEM</a>
+                            </Link>
+                            <Link href="/#Home">
+                                <a className="nav-link">COLLECTIONS</a>
                             </Link>
                             <Link href="grants">
-                                <a className="nav-link">Grant Process</a>
+                                <a className="nav-link">GRANTS</a>
                             </Link>
                             <Link href="/bounty-program">
-                                <a className="nav-link">Bounty Program</a>
+                                <a className="nav-link">BOUNTY</a>
                             </Link>
                             <NavDropdown title="Security" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="/security"> Security Policy</NavDropdown.Item>
+                                <NavDropdown.Item href="/security">SECURITY</NavDropdown.Item>
                                 <NavDropdown.Item href="/security/bug-bounty-program">Bug Bounty
                                     Program</NavDropdown.Item>
                                 <NavDropdown.Item href="/security/known-scam">Known Scam</NavDropdown.Item>
                             </NavDropdown>
-                            <NavDropdown title="SPORTS COLLECTION" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="/permanent-sport-collection">Permanent Sport
-                                    Collection</NavDropdown.Item>
-                            </NavDropdown>
-                            <Link href="/contact-us">
-                                <a className="nav-link">Contact us</a>
+                            <Link href="/news">
+                                <a className="nav-link">NEWS</a>
                             </Link>
                         </Nav>
 

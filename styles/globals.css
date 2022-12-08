@@ -168,6 +168,8 @@ img {
     border-bottom-width: 2px;
     background: linear-gradient(to left, #1b8520, #1b8520, #2afe30, #2afe30) left bottom #000 no-repeat;
     background-size: 100% 2px; /* if linear-gradient, we need to resize it */
+    /*padding-top: 11px;*/
+    /*padding-bottom: 12px;*/
 }
 
 .modal-disconnect {

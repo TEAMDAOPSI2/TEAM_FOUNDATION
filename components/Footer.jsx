@@ -45,7 +45,7 @@ export default function Footer() {
                 {/*<div className="edge">*/}
                 {/*    <img src="images/footer-edge.svg" alt="footer ege"/>*/}
                 {/*</div>*/}
-                <div className="container text-white content pb-3">
+                <div className="container text-white content pb-1">
                     <div className="row mt-2">
                         <div className="col-md-6">
                             <div className="d-flex h-100 flex-row align-items-center socials">
