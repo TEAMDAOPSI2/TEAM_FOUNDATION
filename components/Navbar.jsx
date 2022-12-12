@@ -125,6 +125,9 @@ const RBNavBar = () => {
                             <Link href="/#Home">
                                 <a className="nav-link">COLLECTIONS</a>
                             </Link>
+                            <Link href="/treasury">
+                                <a className="nav-link">COLLECTIONS</a>
+                            </Link>
                             <Link href="grants">
                                 <a className="nav-link">GRANTS</a>
                             </Link>
