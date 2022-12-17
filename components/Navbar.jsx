@@ -126,7 +126,7 @@ const RBNavBar = () => {
                                 <a className="nav-link">COLLECTIONS</a>
                             </Link>
                             <Link href="/treasury">
-                                <a className="nav-link">COLLECTIONS</a>
+                                <a className="nav-link">Treasury</a>
                             </Link>
                             <Link href="grants">
                                 <a className="nav-link">GRANTS</a>
