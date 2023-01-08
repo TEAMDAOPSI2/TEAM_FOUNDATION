@@ -6,15 +6,7 @@ import TextLoop from "react-text-loop";
 import Chart from "@sections/treasury/chart";
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
-import BybitImg from "@public/images/partners/bybit.svg";
-import AlamendaImg from "@public/images/partners/alameda.svg";
-import DragonflyImg from "@public/images/partners/dragonfly.svg";
-import JumpImg from "@public/images/partners/jump.svg";
-import MiranaImg from "@public/images/partners/mirana.svg";
-import PanImg from "@public/images/partners/pan.svg";
-import SparImg from "@public/images/partners/spar.svg";
-import Image from "next/image";
-import Marquee from "react-fast-marquee";
+
 
 const treasury = () => {
     return (
@@ -24,166 +16,167 @@ const treasury = () => {
             </Head>
             <Navbar/>
             <main id={`treasury`}>
-                <div className="z-top">
-                    <div>
-                        <img src={zImg.src} alt="zImg"/>
-                    </div>
-                </div>
-                <section className="hero">
-                    <div className="container">
-                        <div className="col-md-9">
-                            <h2>
-                                <div className="text-change">
-                                    {/* eslint-disable-next-line react/no-children-prop */}
-                                    <TextLoop children={["TREASURY", "ECOSYSTEMS", "PARTNERSHIPS", "ORGANIZATIONS"]}/>
-                                </div>
-                                <div>GOVERNED BY $TEAM</div>
-                            </h2>
-                            <p>
-                                T.E.A.M DAO is a collective of builders, products, and mutually beneficial ecosystems
-                                governed by
-                                $TEAM token holders.
-                            </p>
-                            <div className="button-group">
-                                <a href="#">Documents</a>
-                                <a href="#">Forum</a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section className="ecosystems">
-                    <div className="container">
+                <div style={{paddingTop: '40px'}} />
+                {/*<div className="z-top">*/}
+                {/*    <div>*/}
+                {/*        <img src={zImg.src} alt="zImg"/>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
+                {/*<section className="hero">*/}
+                {/*    <div className="container">*/}
+                {/*        <div className="col-md-9">*/}
+                {/*            <h2>*/}
+                {/*                <div className="text-change">*/}
+                {/*                    /!* eslint-disable-next-line react/no-children-prop *!/*/}
+                {/*                    <TextLoop children={["TREASURY", "ECOSYSTEMS", "PARTNERSHIPS", "ORGANIZATIONS"]}/>*/}
+                {/*                </div>*/}
+                {/*                <div>GOVERNED BY $TEAM</div>*/}
+                {/*            </h2>*/}
+                {/*            <p>*/}
+                {/*                T.E.A.M DAO is a collective of builders, products, and mutually beneficial ecosystems*/}
+                {/*                governed by*/}
+                {/*                $TEAM token holders.*/}
+                {/*            </p>*/}
+                {/*            <div className="button-group">*/}
+                {/*                <a href="#">Documents</a>*/}
+                {/*                <a href="#">Forum</a>*/}
+                {/*            </div>*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+                {/*</section>*/}
+                {/*<section className="ecosystems">*/}
+                {/*    <div className="container">*/}
 
-                        <div className="title">
-                            <h2>Initiatives and <br/> Ecosystem partners</h2>
-                            <svg viewBox="0 0 591 238" fill="none" xmlns="http://www.w3.org/2000/svg" width="591"
-                                 height="238" className="text-bitdaoBlack-20 mx-auto relative -z-10 hidden md:block">
-                                <ellipse rx="306.271" ry="82.776" transform="scale(1 -1) rotate(16.51 557.945 958.876)"
-                                         stroke="currentColor"></ellipse>
-                            </svg>
-                        </div>
+                {/*        <div className="title">*/}
+                {/*            <h2>Initiatives and <br/> Ecosystem partners</h2>*/}
+                {/*            <svg viewBox="0 0 591 238" fill="none" xmlns="http://www.w3.org/2000/svg" width="591"*/}
+                {/*                 height="238" className="text-bitdaoBlack-20 mx-auto relative -z-10 hidden md:block">*/}
+                {/*                <ellipse rx="306.271" ry="82.776" transform="scale(1 -1) rotate(16.51 557.945 958.876)"*/}
+                {/*                         stroke="currentColor"></ellipse>*/}
+                {/*            </svg>*/}
+                {/*        </div>*/}
 
-                        <div className="row partners">
-                            <div className="col-md-6">
-                                <div className="box-partner">
-                                    <svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                         className="absolute top-4 right-4" width="12" height="12">
-                                        <path d="M8 12V4l-8 .001" stroke="currentColor" strokeWidth="1.2"></path>
-                                    </svg>
-                                    <div className="logo">
-                                        <img src="https://www.bitdao.io/images/daos/game7.svg" alt="logo"/>
-                                    </div>
-                                    <div className="box-body">
-                                        <h3 className="">Game7</h3>
-                                        <p>
-                                            Game7 is a collective of gaming veterans and crypto-native leaders
-                                            passionate about building a more equitable gaming industry—one where
-                                            developers and players are on the same side.
-                                        </p>
-                                    </div>
-                                    <div className="box-footer">
-                                        <div>
-                                            <dt>Allocated</dt>
-                                            <dd>$500 Million</dd>
-                                        </div>
-                                        <div>
-                                            <dt>Proposal</dt>
-                                            <dd>Passed</dd>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-6">
-                                <div className="box-partner">
-                                    <svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                         className="absolute top-4 right-4" width="12" height="12">
-                                        <path d="M8 12V4l-8 .001" stroke="currentColor" strokeWidth="1.2"></path>
-                                    </svg>
-                                    <div className="logo">
-                                        <img src="https://www.bitdao.io/images/daos/game7.svg" alt="logo"/>
-                                    </div>
-                                    <div className="box-body">
-                                        <h3 className="">Game7</h3>
-                                        <p>
-                                            Game7 is a collective of gaming veterans and crypto-native leaders
-                                            passionate about building a more equitable gaming industry—one where
-                                            developers and players are on the same side.
-                                        </p>
-                                    </div>
-                                    <div className="box-footer">
-                                        <div>
-                                            <dt>Allocated</dt>
-                                            <dd>$500 Million</dd>
-                                        </div>
-                                        <div>
-                                            <dt>Proposal</dt>
-                                            <dd>Passed</dd>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-6">
-                                <div className="box-partner">
-                                    <svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                         className="absolute top-4 right-4" width="12" height="12">
-                                        <path d="M8 12V4l-8 .001" stroke="currentColor" strokeWidth="1.2"></path>
-                                    </svg>
-                                    <div className="logo">
-                                        <img src="https://www.bitdao.io/images/daos/game7.svg" alt="logo"/>
-                                    </div>
-                                    <div className="box-body">
-                                        <h3 className="">Game7</h3>
-                                        <p>
-                                            Game7 is a collective of gaming veterans and crypto-native leaders
-                                            passionate about building a more equitable gaming industry—one where
-                                            developers and players are on the same side.
-                                        </p>
-                                    </div>
-                                    <div className="box-footer">
-                                        <div>
-                                            <dt>Allocated</dt>
-                                            <dd>$500 Million</dd>
-                                        </div>
-                                        <div>
-                                            <dt>Proposal</dt>
-                                            <dd>Passed</dd>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-6">
-                                <div className="box-partner">
-                                    <svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                         className="absolute top-4 right-4" width="12" height="12">
-                                        <path d="M8 12V4l-8 .001" stroke="currentColor" strokeWidth="1.2"></path>
-                                    </svg>
-                                    <div className="logo">
-                                        <img src="https://www.bitdao.io/images/daos/game7.svg" alt="logo"/>
-                                    </div>
-                                    <div className="box-body">
-                                        <h3 className="">Game7</h3>
-                                        <p>
-                                            Game7 is a collective of gaming veterans and crypto-native leaders
-                                            passionate about building a more equitable gaming industry—one where
-                                            developers and players are on the same side.
-                                        </p>
-                                    </div>
-                                    <div className="box-footer">
-                                        <div>
-                                            <dt>Allocated</dt>
-                                            <dd>$500 Million</dd>
-                                        </div>
-                                        <div>
-                                            <dt>Proposal</dt>
-                                            <dd>Passed</dd>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                {/*        <div className="row partners">*/}
+                {/*            <div className="col-md-6">*/}
+                {/*                <div className="box-partner">*/}
+                {/*                    <svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"*/}
+                {/*                         className="absolute top-4 right-4" width="12" height="12">*/}
+                {/*                        <path d="M8 12V4l-8 .001" stroke="currentColor" strokeWidth="1.2"></path>*/}
+                {/*                    </svg>*/}
+                {/*                    <div className="logo">*/}
+                {/*                        <img src="https://www.bitdao.io/images/daos/game7.svg" alt="logo"/>*/}
+                {/*                    </div>*/}
+                {/*                    <div className="box-body">*/}
+                {/*                        <h3 className="">Game7</h3>*/}
+                {/*                        <p>*/}
+                {/*                            Game7 is a collective of gaming veterans and crypto-native leaders*/}
+                {/*                            passionate about building a more equitable gaming industry—one where*/}
+                {/*                            developers and players are on the same side.*/}
+                {/*                        </p>*/}
+                {/*                    </div>*/}
+                {/*                    <div className="box-footer">*/}
+                {/*                        <div>*/}
+                {/*                            <dt>Allocated</dt>*/}
+                {/*                            <dd>$500 Million</dd>*/}
+                {/*                        </div>*/}
+                {/*                        <div>*/}
+                {/*                            <dt>Proposal</dt>*/}
+                {/*                            <dd>Passed</dd>*/}
+                {/*                        </div>*/}
+                {/*                    </div>*/}
+                {/*                </div>*/}
+                {/*            </div>*/}
+                {/*            <div className="col-md-6">*/}
+                {/*                <div className="box-partner">*/}
+                {/*                    <svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"*/}
+                {/*                         className="absolute top-4 right-4" width="12" height="12">*/}
+                {/*                        <path d="M8 12V4l-8 .001" stroke="currentColor" strokeWidth="1.2"></path>*/}
+                {/*                    </svg>*/}
+                {/*                    <div className="logo">*/}
+                {/*                        <img src="https://www.bitdao.io/images/daos/game7.svg" alt="logo"/>*/}
+                {/*                    </div>*/}
+                {/*                    <div className="box-body">*/}
+                {/*                        <h3 className="">Game7</h3>*/}
+                {/*                        <p>*/}
+                {/*                            Game7 is a collective of gaming veterans and crypto-native leaders*/}
+                {/*                            passionate about building a more equitable gaming industry—one where*/}
+                {/*                            developers and players are on the same side.*/}
+                {/*                        </p>*/}
+                {/*                    </div>*/}
+                {/*                    <div className="box-footer">*/}
+                {/*                        <div>*/}
+                {/*                            <dt>Allocated</dt>*/}
+                {/*                            <dd>$500 Million</dd>*/}
+                {/*                        </div>*/}
+                {/*                        <div>*/}
+                {/*                            <dt>Proposal</dt>*/}
+                {/*                            <dd>Passed</dd>*/}
+                {/*                        </div>*/}
+                {/*                    </div>*/}
+                {/*                </div>*/}
+                {/*            </div>*/}
+                {/*            <div className="col-md-6">*/}
+                {/*                <div className="box-partner">*/}
+                {/*                    <svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"*/}
+                {/*                         className="absolute top-4 right-4" width="12" height="12">*/}
+                {/*                        <path d="M8 12V4l-8 .001" stroke="currentColor" strokeWidth="1.2"></path>*/}
+                {/*                    </svg>*/}
+                {/*                    <div className="logo">*/}
+                {/*                        <img src="https://www.bitdao.io/images/daos/game7.svg" alt="logo"/>*/}
+                {/*                    </div>*/}
+                {/*                    <div className="box-body">*/}
+                {/*                        <h3 className="">Game7</h3>*/}
+                {/*                        <p>*/}
+                {/*                            Game7 is a collective of gaming veterans and crypto-native leaders*/}
+                {/*                            passionate about building a more equitable gaming industry—one where*/}
+                {/*                            developers and players are on the same side.*/}
+                {/*                        </p>*/}
+                {/*                    </div>*/}
+                {/*                    <div className="box-footer">*/}
+                {/*                        <div>*/}
+                {/*                            <dt>Allocated</dt>*/}
+                {/*                            <dd>$500 Million</dd>*/}
+                {/*                        </div>*/}
+                {/*                        <div>*/}
+                {/*                            <dt>Proposal</dt>*/}
+                {/*                            <dd>Passed</dd>*/}
+                {/*                        </div>*/}
+                {/*                    </div>*/}
+                {/*                </div>*/}
+                {/*            </div>*/}
+                {/*            <div className="col-md-6">*/}
+                {/*                <div className="box-partner">*/}
+                {/*                    <svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"*/}
+                {/*                         className="absolute top-4 right-4" width="12" height="12">*/}
+                {/*                        <path d="M8 12V4l-8 .001" stroke="currentColor" strokeWidth="1.2"></path>*/}
+                {/*                    </svg>*/}
+                {/*                    <div className="logo">*/}
+                {/*                        <img src="https://www.bitdao.io/images/daos/game7.svg" alt="logo"/>*/}
+                {/*                    </div>*/}
+                {/*                    <div className="box-body">*/}
+                {/*                        <h3 className="">Game7</h3>*/}
+                {/*                        <p>*/}
+                {/*                            Game7 is a collective of gaming veterans and crypto-native leaders*/}
+                {/*                            passionate about building a more equitable gaming industry—one where*/}
+                {/*                            developers and players are on the same side.*/}
+                {/*                        </p>*/}
+                {/*                    </div>*/}
+                {/*                    <div className="box-footer">*/}
+                {/*                        <div>*/}
+                {/*                            <dt>Allocated</dt>*/}
+                {/*                            <dd>$500 Million</dd>*/}
+                {/*                        </div>*/}
+                {/*                        <div>*/}
+                {/*                            <dt>Proposal</dt>*/}
+                {/*                            <dd>Passed</dd>*/}
+                {/*                        </div>*/}
+                {/*                    </div>*/}
+                {/*                </div>*/}
+                {/*            </div>*/}
+                {/*        </div>*/}
 
-                    </div>
-                </section>
+                {/*    </div>*/}
+                {/*</section>*/}
                 <section className="amounts">
                     <div className="container">
                         <div className="title">
@@ -359,48 +352,48 @@ const treasury = () => {
                         </ul>
                     </div>
                 </section>
-                <section className="partners">
-                    <div className="container">
-                        <div className="go">
-                                <Marquee speed={50} gradient={false} >
-                                    <div className="item col-md-1">
-                                        <img width="100%" height="100%" objectFit="contain" src={BybitImg.src} alt="BybitImg" />
-                                    </div>
-                                    <div className="item col-md-1">
-                                        <img width="100%" height="100%" objectFit="contain" src={AlamendaImg.src} alt="AlamendaImg" />
-                                    </div>
-                                    <div className="item col-md-1">
-                                        <img width="100%" height="100%" objectFit="contain" src={JumpImg.src} alt="JumpImg" />
-                                    </div>
-                                    <div className="item col-md-1">
-                                        <img width="100%" height="100%" objectFit="contain" src={MiranaImg.src} alt="MiranaImg" />
-                                    </div>
-                                    <div className="item col-md-1">
-                                        <img width="100%" height="100%" objectFit="contain" src={PanImg.src} alt={"PanImg"} />
-                                    </div>
-                                    <div className="item col-md-1">
-                                        <img width="100%" height="100%" objectFit="contain" src={DragonflyImg.src} alt="DragonflyImg" />
-                                    </div>
-                                    <div className="item col-md-1">
-                                        <img width="100%" height="100%" objectFit="contain" src={SparImg.src} alt="SparImg" />
-                                    </div>
-                                    <div className="item col-md-1">
-                                        <img width="100%" height="100%" objectFit="contain" src={BybitImg.src} alt="BybitImg" />
-                                    </div>
-                                    <div className="item col-md-1">
-                                        <img width="100%" height="100%" objectFit="contain" src={AlamendaImg.src} alt="AlamendaImg" />
-                                    </div>
-                                    <div className="item col-md-1">
-                                        <img width="100%" height="100%" objectFit="contain" src={JumpImg.src} alt="JumpImg" />
-                                    </div>
-                                    <div className="item col-md-1">
-                                        <img width="100%" height="100%" objectFit="contain" src={MiranaImg.src} alt="MiranaImg" />
-                                    </div>
-                                </Marquee>
+                {/*<section className="partners">*/}
+                {/*    <div className="container">*/}
+                {/*        <div className="go">*/}
+                {/*                <Marquee speed={50} gradient={false} >*/}
+                {/*                    <div className="item col-md-1">*/}
+                {/*                        <img width="100%" height="100%" objectFit="contain" src={BybitImg.src} alt="BybitImg" />*/}
+                {/*                    </div>*/}
+                {/*                    <div className="item col-md-1">*/}
+                {/*                        <img width="100%" height="100%" objectFit="contain" src={AlamendaImg.src} alt="AlamendaImg" />*/}
+                {/*                    </div>*/}
+                {/*                    <div className="item col-md-1">*/}
+                {/*                        <img width="100%" height="100%" objectFit="contain" src={JumpImg.src} alt="JumpImg" />*/}
+                {/*                    </div>*/}
+                {/*                    <div className="item col-md-1">*/}
+                {/*                        <img width="100%" height="100%" objectFit="contain" src={MiranaImg.src} alt="MiranaImg" />*/}
+                {/*                    </div>*/}
+                {/*                    <div className="item col-md-1">*/}
+                {/*                        <img width="100%" height="100%" objectFit="contain" src={PanImg.src} alt={"PanImg"} />*/}
+                {/*                    </div>*/}
+                {/*                    <div className="item col-md-1">*/}
+                {/*                        <img width="100%" height="100%" objectFit="contain" src={DragonflyImg.src} alt="DragonflyImg" />*/}
+                {/*                    </div>*/}
+                {/*                    <div className="item col-md-1">*/}
+                {/*                        <img width="100%" height="100%" objectFit="contain" src={SparImg.src} alt="SparImg" />*/}
+                {/*                    </div>*/}
+                {/*                    <div className="item col-md-1">*/}
+                {/*                        <img width="100%" height="100%" objectFit="contain" src={BybitImg.src} alt="BybitImg" />*/}
+                {/*                    </div>*/}
+                {/*                    <div className="item col-md-1">*/}
+                {/*                        <img width="100%" height="100%" objectFit="contain" src={AlamendaImg.src} alt="AlamendaImg" />*/}
+                {/*                    </div>*/}
+                {/*                    <div className="item col-md-1">*/}
+                {/*                        <img width="100%" height="100%" objectFit="contain" src={JumpImg.src} alt="JumpImg" />*/}
+                {/*                    </div>*/}
+                {/*                    <div className="item col-md-1">*/}
+                {/*                        <img width="100%" height="100%" objectFit="contain" src={MiranaImg.src} alt="MiranaImg" />*/}
+                {/*                    </div>*/}
+                {/*                </Marquee>*/}
 
-                        </div>
-                    </div>
-                </section>
+                {/*        </div>*/}
+                {/*    </div>*/}
+                {/*</section>*/}
             </main>
             <Footer/>
         </>
