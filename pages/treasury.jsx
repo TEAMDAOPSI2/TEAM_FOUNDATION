@@ -17,172 +17,12 @@ const treasury = () => {
             <Navbar/>
             <main id={`treasury`}>
                 <div style={{paddingTop: '40px'}} />
-                {/*<div className="z-top">*/}
-                {/*    <div>*/}
-                {/*        <img src={zImg.src} alt="zImg"/>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
-                {/*<section className="hero">*/}
-                {/*    <div className="container">*/}
-                {/*        <div className="col-md-9">*/}
-                {/*            <h2>*/}
-                {/*                <div className="text-change">*/}
-                {/*                    /!* eslint-disable-next-line react/no-children-prop *!/*/}
-                {/*                    <TextLoop children={["TREASURY", "ECOSYSTEMS", "PARTNERSHIPS", "ORGANIZATIONS"]}/>*/}
-                {/*                </div>*/}
-                {/*                <div>GOVERNED BY $TEAM</div>*/}
-                {/*            </h2>*/}
-                {/*            <p>*/}
-                {/*                T.E.A.M DAO is a collective of builders, products, and mutually beneficial ecosystems*/}
-                {/*                governed by*/}
-                {/*                $TEAM token holders.*/}
-                {/*            </p>*/}
-                {/*            <div className="button-group">*/}
-                {/*                <a href="#">Documents</a>*/}
-                {/*                <a href="#">Forum</a>*/}
-                {/*            </div>*/}
-                {/*        </div>*/}
-                {/*    </div>*/}
-                {/*</section>*/}
-                {/*<section className="ecosystems">*/}
-                {/*    <div className="container">*/}
-
-                {/*        <div className="title">*/}
-                {/*            <h2>Initiatives and <br/> Ecosystem partners</h2>*/}
-                {/*            <svg viewBox="0 0 591 238" fill="none" xmlns="http://www.w3.org/2000/svg" width="591"*/}
-                {/*                 height="238" className="text-bitdaoBlack-20 mx-auto relative -z-10 hidden md:block">*/}
-                {/*                <ellipse rx="306.271" ry="82.776" transform="scale(1 -1) rotate(16.51 557.945 958.876)"*/}
-                {/*                         stroke="currentColor"></ellipse>*/}
-                {/*            </svg>*/}
-                {/*        </div>*/}
-
-                {/*        <div className="row partners">*/}
-                {/*            <div className="col-md-6">*/}
-                {/*                <div className="box-partner">*/}
-                {/*                    <svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"*/}
-                {/*                         className="absolute top-4 right-4" width="12" height="12">*/}
-                {/*                        <path d="M8 12V4l-8 .001" stroke="currentColor" strokeWidth="1.2"></path>*/}
-                {/*                    </svg>*/}
-                {/*                    <div className="logo">*/}
-                {/*                        <img src="https://www.bitdao.io/images/daos/game7.svg" alt="logo"/>*/}
-                {/*                    </div>*/}
-                {/*                    <div className="box-body">*/}
-                {/*                        <h3 className="">Game7</h3>*/}
-                {/*                        <p>*/}
-                {/*                            Game7 is a collective of gaming veterans and crypto-native leaders*/}
-                {/*                            passionate about building a more equitable gaming industry—one where*/}
-                {/*                            developers and players are on the same side.*/}
-                {/*                        </p>*/}
-                {/*                    </div>*/}
-                {/*                    <div className="box-footer">*/}
-                {/*                        <div>*/}
-                {/*                            <dt>Allocated</dt>*/}
-                {/*                            <dd>$500 Million</dd>*/}
-                {/*                        </div>*/}
-                {/*                        <div>*/}
-                {/*                            <dt>Proposal</dt>*/}
-                {/*                            <dd>Passed</dd>*/}
-                {/*                        </div>*/}
-                {/*                    </div>*/}
-                {/*                </div>*/}
-                {/*            </div>*/}
-                {/*            <div className="col-md-6">*/}
-                {/*                <div className="box-partner">*/}
-                {/*                    <svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"*/}
-                {/*                         className="absolute top-4 right-4" width="12" height="12">*/}
-                {/*                        <path d="M8 12V4l-8 .001" stroke="currentColor" strokeWidth="1.2"></path>*/}
-                {/*                    </svg>*/}
-                {/*                    <div className="logo">*/}
-                {/*                        <img src="https://www.bitdao.io/images/daos/game7.svg" alt="logo"/>*/}
-                {/*                    </div>*/}
-                {/*                    <div className="box-body">*/}
-                {/*                        <h3 className="">Game7</h3>*/}
-                {/*                        <p>*/}
-                {/*                            Game7 is a collective of gaming veterans and crypto-native leaders*/}
-                {/*                            passionate about building a more equitable gaming industry—one where*/}
-                {/*                            developers and players are on the same side.*/}
-                {/*                        </p>*/}
-                {/*                    </div>*/}
-                {/*                    <div className="box-footer">*/}
-                {/*                        <div>*/}
-                {/*                            <dt>Allocated</dt>*/}
-                {/*                            <dd>$500 Million</dd>*/}
-                {/*                        </div>*/}
-                {/*                        <div>*/}
-                {/*                            <dt>Proposal</dt>*/}
-                {/*                            <dd>Passed</dd>*/}
-                {/*                        </div>*/}
-                {/*                    </div>*/}
-                {/*                </div>*/}
-                {/*            </div>*/}
-                {/*            <div className="col-md-6">*/}
-                {/*                <div className="box-partner">*/}
-                {/*                    <svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"*/}
-                {/*                         className="absolute top-4 right-4" width="12" height="12">*/}
-                {/*                        <path d="M8 12V4l-8 .001" stroke="currentColor" strokeWidth="1.2"></path>*/}
-                {/*                    </svg>*/}
-                {/*                    <div className="logo">*/}
-                {/*                        <img src="https://www.bitdao.io/images/daos/game7.svg" alt="logo"/>*/}
-                {/*                    </div>*/}
-                {/*                    <div className="box-body">*/}
-                {/*                        <h3 className="">Game7</h3>*/}
-                {/*                        <p>*/}
-                {/*                            Game7 is a collective of gaming veterans and crypto-native leaders*/}
-                {/*                            passionate about building a more equitable gaming industry—one where*/}
-                {/*                            developers and players are on the same side.*/}
-                {/*                        </p>*/}
-                {/*                    </div>*/}
-                {/*                    <div className="box-footer">*/}
-                {/*                        <div>*/}
-                {/*                            <dt>Allocated</dt>*/}
-                {/*                            <dd>$500 Million</dd>*/}
-                {/*                        </div>*/}
-                {/*                        <div>*/}
-                {/*                            <dt>Proposal</dt>*/}
-                {/*                            <dd>Passed</dd>*/}
-                {/*                        </div>*/}
-                {/*                    </div>*/}
-                {/*                </div>*/}
-                {/*            </div>*/}
-                {/*            <div className="col-md-6">*/}
-                {/*                <div className="box-partner">*/}
-                {/*                    <svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"*/}
-                {/*                         className="absolute top-4 right-4" width="12" height="12">*/}
-                {/*                        <path d="M8 12V4l-8 .001" stroke="currentColor" strokeWidth="1.2"></path>*/}
-                {/*                    </svg>*/}
-                {/*                    <div className="logo">*/}
-                {/*                        <img src="https://www.bitdao.io/images/daos/game7.svg" alt="logo"/>*/}
-                {/*                    </div>*/}
-                {/*                    <div className="box-body">*/}
-                {/*                        <h3 className="">Game7</h3>*/}
-                {/*                        <p>*/}
-                {/*                            Game7 is a collective of gaming veterans and crypto-native leaders*/}
-                {/*                            passionate about building a more equitable gaming industry—one where*/}
-                {/*                            developers and players are on the same side.*/}
-                {/*                        </p>*/}
-                {/*                    </div>*/}
-                {/*                    <div className="box-footer">*/}
-                {/*                        <div>*/}
-                {/*                            <dt>Allocated</dt>*/}
-                {/*                            <dd>$500 Million</dd>*/}
-                {/*                        </div>*/}
-                {/*                        <div>*/}
-                {/*                            <dt>Proposal</dt>*/}
-                {/*                            <dd>Passed</dd>*/}
-                {/*                        </div>*/}
-                {/*                    </div>*/}
-                {/*                </div>*/}
-                {/*            </div>*/}
-                {/*        </div>*/}
-
-                {/*    </div>*/}
-                {/*</section>*/}
                 <section className="amounts">
                     <div className="container">
                         <div className="title">
-                            <p>Total dollar amount of tokens held in T.E.A.M Dao treasury</p>
-                            <h2><span>$</span><span>1,746,448,670</span></h2>
-                            <a href="#">VIEW ON ETHERSCAN</a>
+                            {/*<p>Total dollar amount of tokens held in T.E.A.M Dao treasury</p>*/}
+                            {/*<h2><span>$</span><span>1,746,448,670</span></h2>*/}
+                            {/*<a href="#">VIEW ON ETHERSCAN</a>*/}
                         </div>
                         <div className="table">
                             <table>
@@ -196,96 +36,32 @@ const treasury = () => {
                                 <tbody>
                                 <tr>
                                     <td>ETH <span>Ethereum</span></td>
-                                    <td>268,954 ETH <span>15.5%</span></td>
-                                    <td><span>$</span>1,746,448,670</td>
+                                    <td className="number">268.954 ETH <span>15.5%</span></td>
+                                    <td className="number"><span>$</span>1.746.448.670</td>
                                 </tr>
                                 <tr>
                                     <td>USDC <span>USD Coin</span></td>
-                                    <td>268,954 USDC <span>15.5%</span></td>
-                                    <td><span>$</span>315,297,667</td>
+                                    <td className="number">268.954 USDC <span>15.5%</span></td>
+                                    <td className="number"><span>$</span>315.297.667</td>
                                 </tr>
                                 <tr>
                                     <td>USDT <span>Tether</span></td>
-                                    <td>268,954 USDT <span>45.5%</span></td>
-                                    <td><span>$</span>315,297,667</td>
+                                    <td className="number">268.954 USDT <span>45.5%</span></td>
+                                    <td className="number"><span>$</span>315.297.667</td>
                                 </tr>
                                 <tr>
-                                    <td>FTT <span>FTX Token</span></td>
-                                    <td>268,954 FTT <span>15.5%</span></td>
-                                    <td><span>$</span>315,297,667</td>
-                                </tr>
-                                <tr>
-                                    <td>Univ3 LP WETH <span>WETH</span></td>
-                                    <td>268,954 Univ3 LP WETH <span>15.5%</span></td>
-                                    <td><span>$</span>8,297,667</td>
-                                </tr>
-                                <tr>
-                                    <td>PREEPS <span>PleasrDAO</span></td>
-                                    <td>10,000 PEEPS <span>0.5%</span></td>
-                                    <td><span>$</span>6,297,667</td>
-                                </tr>
-                                <tr>
-                                    <td>XSUSHI <span>xSUSHI</span></td>
-                                    <td>268,954 XSUSHI <span>0.17%</span></td>
-                                    <td><span>$</span>3,297,667</td>
+                                    <td>DAI <span>DAI Token</span></td>
+                                    <td className="number">268.954 DAI <span>15.5%</span></td>
+                                    <td className="number"><span>$</span>315.297.667</td>
                                 </tr>
                                 </tbody>
                             </table>
-                        </div>
-                        <div className="grows">
-                            <div className="title">
-                                <h2>How the treasury grows</h2>
-                                <p>
-                                    The BitDAO treasury grows through contributions, ecosystem partner success, and the
-                                    increasing value of assets held.
-                                </p>
-                            </div>
-                            <div className="table">
-                                <table>
-                                    <thead>
-                                    <tr>
-                                        <th>INTERVAL</th>
-                                        <th>DAILY AVG</th>
-                                        <th>ANNUALIZED</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td>1 Day</td>
-                                        <td><span>$</span> 4,682,417</td>
-                                        <td><span>$</span> 1,709,082,205</td>
-                                    </tr>
-                                    <tr>
-                                        <td>7 Days</td>
-                                        <td><span>$</span> 2,779,219</td>
-                                        <td><span>$</span> 942,000,000</td>
-                                    </tr>
-                                    <tr>
-                                        <td>30 Days</td>
-                                        <td><span>$</span> 1,709,082</td>
-                                        <td><span>$</span> 647,000,000</td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div className="center">
-                                <a href="#" className="link">View Contributions</a>
-                            </div>
                         </div>
                     </div>
                 </section>
                 <section className="utility">
                     <div className="container">
                         <div className="get-to-know">
-                            <div className="title">
-                                <h2>Get to know $TEAM</h2>
-                                <p>
-                                    {/* eslint-disable-next-line react/no-unescaped-entities */}
-                                    Utility. Governance. Exposure. When you hold TEAM, you're not just getting a stake
-                                    in
-                                    BitDAO, but the ecosystem of partners it is helping to accelerate.
-                                </p>
-                            </div>
                             <Chart/>
                         </div>
                         <ul>
@@ -313,12 +89,12 @@ const treasury = () => {
                                         </span>
                                     </OverlayTrigger>
                                 </h5>
-                                <span>$2,204,617,776</span>
+                                <span className="number">$2.204.617.776</span>
                             </li>
                             <li>
                                 <h5>TEAM Price</h5>
                                 <div className="d-flex">
-                                    <span>$0,33</span>
+                                    <span className="number">$0.88</span>
                                     <span className="green">+0.5%</span>
                                 </div>
                             </li>
@@ -352,48 +128,6 @@ const treasury = () => {
                         </ul>
                     </div>
                 </section>
-                {/*<section className="partners">*/}
-                {/*    <div className="container">*/}
-                {/*        <div className="go">*/}
-                {/*                <Marquee speed={50} gradient={false} >*/}
-                {/*                    <div className="item col-md-1">*/}
-                {/*                        <img width="100%" height="100%" objectFit="contain" src={BybitImg.src} alt="BybitImg" />*/}
-                {/*                    </div>*/}
-                {/*                    <div className="item col-md-1">*/}
-                {/*                        <img width="100%" height="100%" objectFit="contain" src={AlamendaImg.src} alt="AlamendaImg" />*/}
-                {/*                    </div>*/}
-                {/*                    <div className="item col-md-1">*/}
-                {/*                        <img width="100%" height="100%" objectFit="contain" src={JumpImg.src} alt="JumpImg" />*/}
-                {/*                    </div>*/}
-                {/*                    <div className="item col-md-1">*/}
-                {/*                        <img width="100%" height="100%" objectFit="contain" src={MiranaImg.src} alt="MiranaImg" />*/}
-                {/*                    </div>*/}
-                {/*                    <div className="item col-md-1">*/}
-                {/*                        <img width="100%" height="100%" objectFit="contain" src={PanImg.src} alt={"PanImg"} />*/}
-                {/*                    </div>*/}
-                {/*                    <div className="item col-md-1">*/}
-                {/*                        <img width="100%" height="100%" objectFit="contain" src={DragonflyImg.src} alt="DragonflyImg" />*/}
-                {/*                    </div>*/}
-                {/*                    <div className="item col-md-1">*/}
-                {/*                        <img width="100%" height="100%" objectFit="contain" src={SparImg.src} alt="SparImg" />*/}
-                {/*                    </div>*/}
-                {/*                    <div className="item col-md-1">*/}
-                {/*                        <img width="100%" height="100%" objectFit="contain" src={BybitImg.src} alt="BybitImg" />*/}
-                {/*                    </div>*/}
-                {/*                    <div className="item col-md-1">*/}
-                {/*                        <img width="100%" height="100%" objectFit="contain" src={AlamendaImg.src} alt="AlamendaImg" />*/}
-                {/*                    </div>*/}
-                {/*                    <div className="item col-md-1">*/}
-                {/*                        <img width="100%" height="100%" objectFit="contain" src={JumpImg.src} alt="JumpImg" />*/}
-                {/*                    </div>*/}
-                {/*                    <div className="item col-md-1">*/}
-                {/*                        <img width="100%" height="100%" objectFit="contain" src={MiranaImg.src} alt="MiranaImg" />*/}
-                {/*                    </div>*/}
-                {/*                </Marquee>*/}
-
-                {/*        </div>*/}
-                {/*    </div>*/}
-                {/*</section>*/}
             </main>
             <Footer/>
         </>

@@ -2100,15 +2100,19 @@ main {
 }
 
 .pie-legend-title {
-    font-size: 51px;
+    font-size: 23px;
     font-weight: 400;
     color: #fff;
     margin-bottom: 20px;
-    font-family: technology, sans-serif;
+    font-family: 'Teamdao', sans-serif;
+    letter-spacing: 0.1rem;
+}
+.pie-legend-sub-title span{
+    color: white;
 }
 
 .pie-legend-sub-title {
-    font-size: 26px;
+    font-size: 14px;
     font-weight: 500;
     color: #000;
     margin-top: 20px;
@@ -2121,7 +2125,7 @@ main {
 
 #treasury .get-to-know {
     margin: 40px;
-    background: #379341;
+    background: #5A5A5A;
     text-align: center;
     padding: 40px;
     border-radius: 40px;
@@ -2135,6 +2139,11 @@ main {
 #treasury .get-to-know .title h2 {
     font-size: 56px;
     margin-bottom: 40px;
+}
+
+.number{
+    font-family: 'Teamdao', sans-serif;
+    letter-spacing: 0.1em;
 }
 
 #treasury .utility ul li {
@@ -2218,7 +2227,7 @@ main {
     height: 460px;
 }
 
-.chart .legend {
+.xC .legend {
     display: none;
 }
 
@@ -2240,7 +2249,7 @@ main {
         padding: 20px;
     }
 
-    .chart .legend {
+    .xC .legend {
         display: block;
     }
 
