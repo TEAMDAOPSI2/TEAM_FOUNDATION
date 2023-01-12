@@ -1,14 +1,26 @@
 import Head from "next/head";
 import Navbar from "@components/Navbar";
 import Footer from "@components/Footer";
-import zImg from "public/images/bg-treasury.svg";
-import TextLoop from "react-text-loop";
 import Chart from "@sections/treasury/chart";
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
+import {formatNumber} from "../utils/money_format";
 
+// get data from api
+export async function getServerSideProps() {
+    const res = await fetch(`https://script.google.com/macros/s/AKfycbyCqi5hiqSn_c0te5qVMpQp7Zf2AS0jSQymU8lCgW9pRLH_RSRD0idUf1sUcIv4q6rW/exec?action=stats`);
+    const resMarketCap = await fetch(`https://script.google.com/macros/s/AKfycbxjut-YkSj6wrLolorbDvZ3OI4aSTuNLhFMSJQvY1yFStdcOsMaiGk3nNglQZkTgKwh/exec?action=marketcap`);
+    const dataMarketCap = await resMarketCap.json();
+    const data = await res.json();
+    return {
+        props: {
+            treasuryData: data,
+            marketCap: dataMarketCap[0]
+        }
+    }
+}
 
-const treasury = () => {
+const treasury = ({treasuryData, marketCap}) => {
     return (
         <>
             <Head>
@@ -16,7 +28,7 @@ const treasury = () => {
             </Head>
             <Navbar/>
             <main id={`treasury`}>
-                <div style={{paddingTop: '40px'}} />
+                <div style={{paddingTop: '40px'}}/>
                 <section className="amounts">
                     <div className="container">
                         <div className="title">
@@ -28,32 +40,25 @@ const treasury = () => {
                             <table>
                                 <thead>
                                 <tr>
-                                    <th>Symbol, <span>Name</span></th>
-                                    <th>Tokens, <span>Percentage</span></th>
+                                    <th>Symbol <span>Name</span></th>
+                                    <th>Tokens <span>Percentage</span></th>
                                     <th>USD</th>
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>ETH <span>Ethereum</span></td>
-                                    <td className="number">268.954 ETH <span>15.5%</span></td>
-                                    <td className="number"><span>$</span>1.746.448.670</td>
-                                </tr>
-                                <tr>
-                                    <td>USDC <span>USD Coin</span></td>
-                                    <td className="number">268.954 USDC <span>15.5%</span></td>
-                                    <td className="number"><span>$</span>315.297.667</td>
-                                </tr>
-                                <tr>
-                                    <td>USDT <span>Tether</span></td>
-                                    <td className="number">268.954 USDT <span>45.5%</span></td>
-                                    <td className="number"><span>$</span>315.297.667</td>
-                                </tr>
-                                <tr>
-                                    <td>DAI <span>DAI Token</span></td>
-                                    <td className="number">268.954 DAI <span>15.5%</span></td>
-                                    <td className="number"><span>$</span>315.297.667</td>
-                                </tr>
+                                {
+                                    treasuryData.map((item, index) => {
+                                        return (
+                                            <tr key={index}>
+                                                <td>${item.Ticker} <span>{item.Name}</span></td>
+                                                <td className="number">{formatNumber(item.token)}
+                                                    <span>{item.percentage}%</span></td>
+                                                <td className="number"><span>$</span>{formatNumber(item.usd)}</td>
+                                            </tr>
+                                        )
+                                    })
+                                }
+
                                 </tbody>
                             </table>
                         </div>
@@ -89,12 +94,12 @@ const treasury = () => {
                                         </span>
                                     </OverlayTrigger>
                                 </h5>
-                                <span className="number">$2.204.617.776</span>
+                                <span className="number">${formatNumber(marketCap['market-cap'])}</span>
                             </li>
                             <li>
-                                <h5>TEAM Price</h5>
+                                <h5>$TEAM Price</h5>
                                 <div className="d-flex">
-                                    <span className="number">$0.88</span>
+                                    <span className="number">${formatNumber(marketCap['team-price'])}</span>
                                     <span className="green">+0.5%</span>
                                 </div>
                             </li>

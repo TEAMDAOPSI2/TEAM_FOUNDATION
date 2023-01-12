@@ -2125,7 +2125,7 @@ main {
 
 #treasury .get-to-know {
     margin: 40px;
-    background: #5A5A5A;
+    background: rgba(90, 90, 90, 0.8);
     text-align: center;
     padding: 40px;
     border-radius: 40px;
