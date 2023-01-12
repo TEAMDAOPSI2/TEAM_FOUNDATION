@@ -61,7 +61,7 @@ const Chart = () => {
                     {quantity}
                 </text>
                 <text className='pie-legend-sub-title' x={ex + (cos >= 0 ? 1 : -1) * 21} y={ey} dy={20}
-                      textAnchor={textAnchor} fill="#333">
+                      textAnchor={textAnchor} fill="#0fc713">
                     {`${name}`}
                 </text>
             </g>
