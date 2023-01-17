@@ -104,10 +104,10 @@ const treasury = ({treasuryData, marketCap}) => {
                                 </div>
                             </li>
                             <li>
-                                <h5>Tokenomics</h5>
-                                <span className="link">
-                                    <a href="#">View Details</a>
-                                </span>
+                                <h5>Total Supply</h5>
+                                <div className="d-flex">
+                                    <span className="number">{formatNumber(88888888)}</span>
+                                </div>
                             </li>
                             <li>
                                 <h5>Contract</h5>
