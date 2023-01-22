@@ -143,6 +143,9 @@ const RBNavBar = () => {
                             <Link href="/news">
                                 <a className="nav-link">NEWS</a>
                             </Link>
+                            <Link href="#">
+                                <a className="nav-link">ENDOWMENTS</a>
+                            </Link>
                         </Nav>
 
                         {/*<Nav className="ms-auto left-nav-menu" id="myNavItem">*/}
