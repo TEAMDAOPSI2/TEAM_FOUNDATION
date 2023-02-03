@@ -139,7 +139,7 @@ img {
     background-color: #0fc713;
 }
 
-#myNavbar{
+#myNavbar {
     background-color: rgba(0, 0, 0, 0.75) !important;
 }
 
@@ -2005,7 +2005,8 @@ main {
     font-weight: 600;
     color: #fff;
     border-top: none;
-    width: calc(100% / 3)
+    width: calc(100% / 5);
+    font-size: 23px;
 }
 
 #treasury .amounts .table table tr td {
@@ -2021,12 +2022,22 @@ main {
     font-weight: normal;
 }
 
-#treasury .amounts .table table tr td:nth-child(2), #treasury .amounts .table table tr th:nth-child(2) {
+#treasury .amounts .table table tr td:nth-child(2),
+#treasury .amounts .table table tr th:nth-child(2),
+#treasury .amounts .table table tr th:nth-child(3),
+#treasury .amounts .table table tr th:nth-child(4),
+#treasury .amounts .table table tr td:nth-child(4),
+#treasury .amounts .table table tr td:nth-child(3) {
     text-align: center;
 }
 
-#treasury .amounts .table table tr td:nth-child(3), #treasury .amounts .table table tr th:nth-child(3) {
+#treasury .amounts .table table tr td:nth-child(5), #treasury .amounts .table table tr th:nth-child(5) {
     text-align: right;
+}
+
+#treasury .amounts .table .green-border td{
+    border-bottom: 2px solid #00ff19 !important;
+    border-top: 2px solid #00ff19 !important;
 }
 
 #treasury .amounts .grows {
@@ -2107,7 +2118,8 @@ main {
     font-family: 'Teamdao', sans-serif;
     letter-spacing: 0.1rem;
 }
-.pie-legend-sub-title span{
+
+.pie-legend-sub-title span {
     color: white;
 }
 
@@ -2141,7 +2153,7 @@ main {
     margin-bottom: 40px;
 }
 
-.number{
+.number {
     font-family: 'Teamdao', sans-serif;
     letter-spacing: 0.1em;
 }
@@ -2239,6 +2251,7 @@ main {
     #treasury .utility .chart {
         height: 370px;
     }
+
     #treasury .get-to-know .title h2 {
         font-size: 40px;
         line-height: 42px;
@@ -2253,7 +2266,7 @@ main {
         display: block;
     }
 
-    #treasury  .legend li .legend-color {
+    #treasury .legend li .legend-color {
         width: 10px;
         height: 10px;
         margin-right: 15px;
@@ -2283,7 +2296,8 @@ main {
     .mobile-gone {
         display: none;
     }
-    .recharts-pie-labels{
+
+    .recharts-pie-labels {
         display: none;
     }
 }

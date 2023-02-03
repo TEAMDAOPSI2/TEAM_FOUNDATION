@@ -43,6 +43,8 @@ const treasury = ({treasuryData, marketCap}) => {
                                     <th>Symbol <span>Name</span></th>
                                     <th>Tokens <span>Percentage</span></th>
                                     <th>USD</th>
+                                    <th>Earned</th>
+                                    <th>Rewarded</th>
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -54,10 +56,19 @@ const treasury = ({treasuryData, marketCap}) => {
                                                 <td className="number">{formatNumber(item.token)}
                                                     <span>{item.percentage}%</span></td>
                                                 <td className="number"><span>$</span>{formatNumber(item.usd)}</td>
+                                                <td className="number"><span>$</span>{formatNumber(item.earned)}</td>
+                                                <td className="number"><span>$</span>{formatNumber(item.rewarded)}</td>
                                             </tr>
                                         )
                                     })
                                 }
+                                <tr className="green-border">
+                                    <td>Total</td>
+                                    <td>{` `}</td>
+                                    {/*sum total usd key*/}
+                                    <td className="number"><span>$</span>{formatNumber(treasuryData.reduce((a, b) => a + (b['usd'] || 0), 0))}</td>
+                                    <td colSpan="2"></td>
+                                </tr>
 
                                 </tbody>
                             </table>
