@@ -146,6 +146,10 @@ const RBNavBar = () => {
                             <Link href="#">
                                 <a className="nav-link">ENDOWMENTS</a>
                             </Link>
+
+                            <Link href='https://team.university/'>
+                                <a target='_blank' className='nav-link'>TEAM UNIVERSITY</a>
+                            </Link>
                         </Nav>
 
                         {/*<Nav className="ms-auto left-nav-menu" id="myNavItem">*/}
